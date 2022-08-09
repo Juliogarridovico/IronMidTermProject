@@ -19,7 +19,7 @@ Hero-Section END
 *************
 */
 
-
+/* 
 #Homepage{
 
 position: relative;
@@ -397,19 +397,32 @@ top: 85px;
 #Home {
 
 width: 46px;
+<<<<<<< HEAD
 height: 22px; }
 
 #Web-Headline-Medium {
+=======
+height: 22px;
+}
+#Web-Headline-Medium{
+font-family: 'Roboto';
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
+<<<<<<< HEAD
 }
 
 #identical {
     to box height, or 22px}
 
 #Primary-Default {
+=======
+
+}
+#Primary-Default{
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 color: #072AC8;
 }
 
@@ -418,54 +431,54 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
-
+}
 #Projects{
 
 width: 63px;
 height: 22px;
-
+}
 #Web-Headline-Medium{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+}
 
 #Neutral-Medium{
 color: #6B708D;
-
+}
 
 #Inside auto layout{
 flex: none;
 order: 1;
 flex-grow: 0;
-
+}
 
 #Services{
 
 width: 66px;
 height: 22px;
-
+}
 #Web-Headline-Medium{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+}
 
 #Neutral-Medium{
 color: #6B708D;
-
+}
 
 #Inside auto layout{
 flex: none;
 order: 2;
 flex-grow: 0;
+}
 
 
-#Frame 21{
 
 #Auto layout{
 display: flex;
@@ -474,39 +487,34 @@ justify-content: center;
 align-items: center;
 padding: 15px 36px;
 gap: 10px;
-
-display: flex;
-width: 150px;
-height: 52px;
-left: 1120px;
-top: 70px;
+}
 
 #Primary-Default{
 background: #072AC8;
 
-
+}
 #Contact Us{
 
 width: 84px;
 height: 22px;
-
+}
 #Web-Headline-Medium{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+
 text-align: center;
 
 color: #FFFFFF;
-
+}
 
 #Inside auto layout{
 flex: none;
 order: 0;
 flex-grow: 0;
-
+}
 
 #Client Section{
 
@@ -515,7 +523,7 @@ width: 1440px;
 height: 96px;
 left: calc(50% - 1440px-2);
 top: 1002px;
-
+}
 
 
 #Container{
@@ -525,20 +533,20 @@ width: 1100px;
 height: 96px;
 left: 170px;
 top: 0px;
+}
 
 
-
-#Group 24{
+#Group-24{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 409px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -549,9 +557,9 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Google Logo 1{
+#Google-Logo-1{
 
 display: flex;
 width: 96px;
@@ -559,7 +567,7 @@ height: 32px;
 left: 436px;
 top: 32px;
 
-
+}
 
 #Group{
 
@@ -569,7 +577,7 @@ right: 1.25%;
 top: 0.51%;
 bottom: 3.01%;
 
-
+}
 
 #Vector{
 
@@ -580,7 +588,7 @@ top: 27.17%;
 bottom: 24.61%;
 
 background: #EA4335;
-
+}
 
 #Vector{
 
@@ -591,7 +599,7 @@ top: 27.17%;
 bottom: 24.61%;
 
 background: #FBBC05;
-
+}
 
 #Vector{
 
@@ -602,7 +610,7 @@ top: 27.17%;
 bottom: 3.01%;
 
 background: #4285F4;
-
+}
 
 #Vector{
 
@@ -613,7 +621,7 @@ top: 3.26%;
 bottom: 26.09%;
 
 background: #34A853;
-
+}
 
 #Vector{
 
@@ -625,7 +633,7 @@ bottom: 24.62%;
 
 background: #EA4335;
 
-
+}
 #Vector{
 
 display: flex;
@@ -635,19 +643,19 @@ top: 0.51%;
 bottom: 24.62%;
 
 background: #4285F4;
+}
 
-
-#Group 23{
+#Group-23{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 170px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -658,16 +666,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Airbnb Logo 1{
+#Airbnb-Logo-1{
 
 display: flex;
 width: 104px;
 height: 32px;
 left: 193px;
 top: 32px;
-
+}
 
 
 #Group{
@@ -677,7 +685,7 @@ left: 0.46%;
 right: 0.82%;
 top: -0.07%;
 bottom: 0%;
-
+}
 
 
 #Vector{
@@ -689,19 +697,19 @@ top: -0.07%;
 bottom: 0%;
 
 background: #FF385C;
+}
 
-
-#Group 25{
+#Group-25{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 646px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -712,9 +720,9 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Microsoft Logo 1{
+#Microsoft-Logo-1{
 
 display: flex;
 width: 123px;
@@ -722,7 +730,7 @@ height: 26px;
 left: 660px;
 top: 35px;
 
-
+}
 
 #Group{
 
@@ -731,7 +739,7 @@ left: 0.41%;
 right: 0.42%;
 top: 0%;
 bottom: 0%;
-
+}
 
 
 #Vector{
@@ -744,7 +752,7 @@ bottom: 18.91%;
 
 background: #737373;
 
-
+}
 #Vector{
 
 display: flex;
@@ -754,7 +762,7 @@ top: 0%;
 bottom: 52.48%;
 
 background: #F25022;
-
+}
 
 #Vector{
 
@@ -765,7 +773,7 @@ top: 0%;
 bottom: 52.48%;
 
 background: #7FBA00;
-
+}
 
 #Vector{
 
@@ -776,7 +784,7 @@ top: 52.48%;
 bottom: 0%;
 
 background: #00A4EF;
-
+}
 
 #Vector{
 
@@ -787,19 +795,19 @@ top: 52.48%;
 bottom: 0%;
 
 background: #FFB900;
+}
 
-
-#Group 26{
+#Group-26{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 883px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -810,16 +818,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#FedEx Logo 1{
+#FedEx-Logo-1{
 
 display: flex;
 width: 101px;
 height: 30px;
 left: 908px;
 top: 33px;
-
+}
 
 
 #Group{
@@ -829,7 +837,7 @@ left: 0.5%;
 right: 0.62%;
 top: 0%;
 bottom: -0.53%;
-
+}
 
 
 #Vector{
@@ -841,7 +849,7 @@ top: 35.43%;
 bottom: 2.99%;
 
 background: #FF6600;
-
+}
 
 #Vector{
 
@@ -852,7 +860,7 @@ top: 0%;
 bottom: 2.99%;
 
 background: #FF6600;
-
+}
 
 #Vector{
 
@@ -863,19 +871,19 @@ top: 0%;
 bottom: -0.53%;
 
 background: #652C8F;
+}
 
-
-#Group 27{
+#Group-27{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 1120px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -887,8 +895,8 @@ top: 0px;
 background: #FFFFFF;
 border-radius: 20px;
 
-
-#Amazon Logo 1{
+}
+#Amazon-Logo-1{
 
 display: flex;
 width: 104px;
@@ -896,7 +904,7 @@ height: 32px;
 left: 1143px;
 top: 32px;
 
-
+}
 
 #Group{
 
@@ -905,7 +913,7 @@ left: 0.48%;
 right: 0.48%;
 top: 0%;
 bottom: 0%;
-
+}
 
 
 #Vector{
@@ -918,7 +926,7 @@ top: 0%;
 bottom: 0%;
 
 background: #FFFFFF;
-
+}
 
 #Vector{
 
@@ -929,7 +937,7 @@ top: 63.8%;
 bottom: 0%;
 
 background: #FF9900;
-
+}
 
 #Vector{
 
@@ -940,9 +948,9 @@ top: 60.33%;
 bottom: 7.15%;
 
 background: #FF9900;
+}
 
-
-#Vector{
+#Vector-2{
 
 display: flex;
 left: 57.15%;
@@ -951,9 +959,9 @@ top: 1.47%;
 bottom: 43.39%;
 
 background: #000000;
+}
 
-
-#Vector{
+#Vector-3{
 
 display: flex;
 left: 17.36%;
@@ -962,9 +970,9 @@ top: 0.51%;
 bottom: 42.03%;
 
 background: #000000;
+}
 
-
-#Vector{
+#Vector-4{
 
 display: flex;
 left: 70.73%;
@@ -973,42 +981,10 @@ top: 0.51%;
 bottom: 40.94%;
 
 background: #000000;
+}
 
 
-#Vector{
-
-display: flex;
-left: 86.93%;
-right: 0.48%;
-top: 0.51%;
-bottom: 42.03%;
-
-background: #000000;
-
-
-#Vector{
-
-display: flex;
-left: 40.66%;
-right: 44.69%;
-top: 0%;
-bottom: 41.31%;
-
-background: #000000;
-
-
-#Vector{
-
-display: flex;
-left: 0.48%;
-right: 84.87%;
-top: 0%;
-bottom: 41.31%;
-
-background: #000000;
-
-
-#Clients (Grayscale){
+#Clients-Grayscale{
 
 display: flex;
 width: 1100px;
@@ -1016,19 +992,19 @@ height: 96px;
 left: 170px;
 top: 0px;
 
+}
 
-
-#Group 24{
+#Group-24{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 409px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -1039,16 +1015,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Google Logo 1{
+#Google-Logo-1{
 
 display: flex;
 width: 96px;
 height: 32px;
 left: 436px;
 top: 32px;
-
+}
 
 
 #Group{
@@ -1058,10 +1034,10 @@ left: 0.65%;
 right: 1.25%;
 top: 0.51%;
 bottom: 3.01%;
+}
 
 
-
-#Vector{
+/* #Vector{
 
 display: flex;
 left: 26.44%;
@@ -1127,17 +1103,17 @@ bottom: 24.62%;
 background: #7F7F7F;
 
 
-#Group 23{
+#Group-23{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 170px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -1148,16 +1124,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Airbnb Logo 1{
+#Airbnb-Logo-1{
 
 display: flex;
 width: 104px;
 height: 32px;
 left: 193px;
 top: 32px;
-
+}
 
 
 #Group{
@@ -1167,10 +1143,10 @@ left: 0.46%;
 right: 0.82%;
 top: -0.07%;
 bottom: 0%;
+}
 
 
-
-#Vector{
+/* #Vector{
 
 display: flex;
 left: 0.46%;
@@ -1178,20 +1154,20 @@ right: 0.82%;
 top: -0.07%;
 bottom: 0%;
 
-background: #656565;
+background: #656565; 
 
 
-#Group 25{
+#Group-25{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 646px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -1202,16 +1178,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Microsoft Logo 1{
+#Microsoft-Logo-1{
 
 display: flex;
 width: 123px;
 height: 26px;
 left: 660px;
 top: 35px;
-
+}
 
 
 #Group{
@@ -1221,9 +1197,9 @@ left: 0.41%;
 right: 0.42%;
 top: 0%;
 bottom: 0%;
+}
 
-
-
+/* 
 #Vector{
 
 display: flex;
@@ -1279,17 +1255,17 @@ bottom: 0%;
 background: #BBBBBB;
 
 
-#Group 26{
+#Group-26{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 883px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -1300,16 +1276,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#FedEx Logo 1{
+#FedEx-Logo-1{
 
 display: flex;
 width: 101px;
 height: 30px;
 left: 908px;
 top: 33px;
-
+}
 
 
 #Group{
@@ -1319,7 +1295,7 @@ left: 0.5%;
 right: 0.62%;
 top: 0%;
 bottom: -0.53%;
-
+}
 
 
 #Vector{
@@ -1332,7 +1308,7 @@ bottom: 2.99%;
 
 background: #7F7F7F;
 
-
+}
 #Vector{
 
 display: flex;
@@ -1342,7 +1318,7 @@ top: 0%;
 bottom: 2.99%;
 
 background: #7F7F7F;
-
+}
 
 #Vector{
 
@@ -1353,19 +1329,19 @@ top: 0%;
 bottom: -0.53%;
 
 background: #3F3F3F;
+}
 
-
-#Group 27{
+#Group-27{
 
 display: flex;
 width: 150px;
 height: 96px;
 left: 1120px;
 top: 0px;
+}
 
 
-
-#Rectangle 29{
+#Rectangle-29{
 
 display: flex;
 visibility: hidden;
@@ -1376,16 +1352,16 @@ top: 0px;
 
 background: #FFFFFF;
 border-radius: 20px;
+}
 
-
-#Amazon Logo 1{
+#Amazon-Logo-1{
 
 display: flex;
 width: 104px;
 height: 32px;
 left: 1143px;
 top: 32px;
-
+}
 
 
 #Group{
@@ -1395,10 +1371,10 @@ left: 0.48%;
 right: 0.48%;
 top: 0%;
 bottom: 0%;
+}
 
 
-
-#Vector{
+/* #Vector{
 
 display: flex;
 visibility: hidden;
@@ -1498,7 +1474,18 @@ bottom: 41.31%;
 background: #000000;
 
 
+<<<<<<< HEAD
 
+=======
+#Hero Section{
+
+display: flex;
+width: 1440px;
+height: 650px;
+left: calc(50% - 1440px-2);
+top: 222px;
+}
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
 .Container {
@@ -1509,7 +1496,10 @@ height: 650px;
 left: 170px;
 top: 0px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 #Content {
 
@@ -1519,7 +1509,10 @@ height: 422px;
 left: 170px;
 top: 109px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
 #See our work{
@@ -1529,21 +1522,21 @@ width: 100px;
 height: 22px;
 left: 360px;
 top: 494px;
-
+}
 #Headline-Medium{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+}
 
 #Neutral-Medium{
 color: #6B708D;
+}
 
 
-
-#Frame 20{
+#Frame-20{}
 
 #Auto layout{
 display: flex;
@@ -1558,61 +1551,49 @@ width: 150px;
 height: 52px;
 left: 170px;
 top: 479px;
-
+}
 #Primary-Default{
 background: #072AC8;
+}
 
-
-#Get in touch{
+#Get-in-touch{
 
 width: 92px;
 height: 22px;
-
+}
 #Headline-Medium{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+
 text-align: center;
 
 color: #FFFFFF;
-
+}
 
 #Inside auto layout{
 flex: none;
 order: 0;
 flex-grow: 0;
+}
 
-
-#Empower Your Business With Stunning Design!{
+#Empower-Your-Business-With-Stunning-Design{
 
 display: flex;
 width: 530px;
 height: 210px;
 left: 170px;
 top: 109px;
-
-#H1{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 70px;
+}
 
 #Neutral-Dark{
 color: #292E47;
 
+}
 
 
-#Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.{
-
-display: flex;
-width: 435px;
-height: 90px;
-left: 170px;
-top: 349px;
 
 #Body-Regular{
 font-family: 'Roboto';
@@ -1620,11 +1601,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
-#or 30px{
+}
 
 #Neutral-Medium{
 color: #6B708D;
-
+}
 
 
 #Image{
@@ -1634,7 +1615,7 @@ width: 570px;
 height: 650px;
 left: 700px;
 top: 0px;
-
+}
 
 
 #Hero Image{
@@ -1644,32 +1625,32 @@ width: 570px;
 height: 637px;
 left: 700px;
 top: 0px;
+}
 
 
-
-#Hero Image{
+#Hero-Image{
 
 display: flex;
 width: 614.96px;
 height: 637.41px;
 left: -22px;
 top: 0px;
+}
 
 
-
-#Ellipse 5{
+#Ellipse-5{
 
 display: flex;
 width: 568px;
 height: 568px;
 left: 1.67px;
 top: 62.89px;
-
+}
 #Secondary-1{
 background: #FFC600;
+}
 
-
-#Hero Image{
+#Hero-Image-2{
 
 display: flex;
 width: 599.98px;
@@ -1678,22 +1659,23 @@ left: -6.84px;
 top: 0px;
 
 transform: rotate(1.39deg);
+}
 
-
-#Ellipse 6{
+#Ellipse-6{
 
 display: flex;
 width: 599.98px;
 height: 623px;
 left: -6.84px;
 top: 0px;
+}
 
 #Primary-Hover{
 background: #A2D6F9;
 transform: rotate(1.39deg);
+}
 
-
-#Hero 1{
+#Hero-1{
 
 display: flex;
 width: 508px;
@@ -1703,19 +1685,19 @@ top: 5.67px;
 
 background: url(Hero.png);
 transform: matrix(-1, -0.02, -0.02, 1, 0, 0);
+}
 
-
-#Card 2{
+#Card-2{
 
 display: flex;
 width: 190px;
 height: 193px;
 left: 1080px;
 top: 457px;
+}
 
 
-
-#Rectangle 69{
+#Rectangle-69{
 
 display: flex;
 width: 190px;
@@ -1726,43 +1708,43 @@ top: 457px;
 background: #FFFFFF;
 box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
 border-radius: 30px;
+}
 
-
-#Group 52{
+#Group-52{
 
 display: flex;
 width: 162.08px;
 height: 100.04px;
 left: 1093.96px;
 top: 501.98px;
+}
 
 
-
-#Group 50{
-
-display: flex;
-width: 62.82px;
-height: 62.82px;
-left: 1143.59px;
-top: 501.98px;
-
-
-
-#Rectangle 5{
+#Group-50{
 
 display: flex;
 width: 62.82px;
 height: 62.82px;
 left: 1143.59px;
 top: 501.98px;
+}
 
+
+#Rectangle-5{
+
+display: flex;
+width: 62.82px;
+height: 62.82px;
+left: 1143.59px;
+top: 501.98px;
+}
 #Primary-Tapped{
 background: #D1EDFF;
 opacity: 0.4;
 border-radius: 22.1705px;
+}
 
-
-#image 68{
+#image-68{
 
 display: flex;
 width: 25.87px;
@@ -1772,8 +1754,8 @@ top: 520.46px;
 
 background: url(image.png);
 
-
-#Project has been accepted.{
+}
+#Project-has-been-accepted{
 
 display: flex;
 width: 162.08px;
@@ -1786,15 +1768,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 11.6327px;
 line-height: 14px;
-#identical to box height{
-text-align: center;
 
+text-align: center;
+}
 #Neutral-Medium{
 color: #6B708D;
 
+}
 
-
-#Card 1{
+#Card-1{
 
 display: flex;
 width: 190px;
@@ -1802,9 +1784,9 @@ height: 216px;
 left: 700px;
 top: 25px;
 
+}
 
-
-#Rectangle 69{
+#Rectangle-69{
 
 display: flex;
 width: 190px;
@@ -1815,16 +1797,16 @@ top: 25px;
 background: #FFFFFF;
 box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1);
 border-radius: 30px;
+}
 
-
-#Pagination Dots{
+#Pagination-Dots{
 
 display: flex;
 width: 145.29px;
 height: 8.38px;
 left: 722.35px;
 bottom: 424.75px;
-
+}
 
 
 #Group{
@@ -1834,20 +1816,20 @@ width: 22.35px;
 left: calc(50% - 22.35px-2 - 0px);
 top: 22.22%;
 bottom: 22.22%;
+}
 
 
-
-#Dot - Page 3{
+#Dot-Page3{
 
 display: flex;
 width: 4.66px;
 height: 4.66px;
 left: calc(50% - 4.66px-2 + 8.38px);
 top: 0px;
+}
 
 
-
-#Page Dot{
+#Page-Dot{
 
 display: flex;
 left: 0px;
@@ -1857,49 +1839,49 @@ bottom: 0px;
 
 background: #E1E1E1;
 
-
-#Dot - Page 2{
+}
+#Dot-Page-2{
 
 display: flex;
 width: 4.66px;
 height: 4.66px;
 left: calc(50% - 4.66px-2 - 0px);
 top: 0px;
+}
 
 
-
-#Page Dot{
+#Page-Dot{
 
 display: flex;
 left: 0px;
 right: 0px;
 top: 0px;
 bottom: 0px;
-
 background: #E1E1E1;
+}
 
-
-#Dot - Page 1{
+#Dot-Page-1{
 
 display: flex;
 width: 4.66px;
 height: 4.66px;
 left: calc(50% - 4.66px-2 - 8.38px);
 top: 0px;
+}
 
 
-
-#Page Dot: Selection{
+#Page-Dot-Selection{
 
 display: flex;
 left: 0px;
 right: 0px;
 top: 0px;
 bottom: 0px;
+}
 
 #Neutral-Dark{
 background: #292E47;
-
+}
 
 #Title{
 
@@ -1914,35 +1896,45 @@ font-style: normal;
 font-weight: 500;
 font-size: 13.0392px;
 line-height: 17px;
-#identical to box height, or 129%{
+}
 
 #Neutral-Dark{
 color: #292E47;
+}
 
 
-
-#Group 51{
-
-display: flex;
-width: 141.57px;
-height: 83.82px;
-left: 724.22px;
-top: 103.24px;
-
-
-
-#Rectangle 6{
+#Group-51{
 
 display: flex;
 width: 141.57px;
 height: 83.82px;
 left: 724.22px;
 top: 103.24px;
+}
 
+
+#Rectangle-6{
+
+display: flex;
+width: 141.57px;
+height: 83.82px;
+left: 724.22px;
+top: 103.24px;
+}
 #Primary-Default{
 background: #072AC8;
 box-shadow: 0px 13.9706px 18.6275px rgba(36, 36, 34, 0.08), 0px 4.21172px 5.61563px rgba(36, 36, 34, 0.0521271), 0px 1.74933px 2.33245px rgba(36, 36, 34, 0.04), 0px 0.6327px 0.8436px rgba(36, 36, 34, 0.0278729);
 border-radius: 18.6275px;
+}
+
+#Group{
+
+display: flex;
+left: 51.07%;
+right: 47.51%;
+top: 18.17%;
+bottom: 79.88%;
+}
 
 
 #Group{
@@ -1952,17 +1944,7 @@ left: 51.07%;
 right: 47.51%;
 top: 18.17%;
 bottom: 79.88%;
-
-
-
-#Group{
-
-display: flex;
-left: 51.07%;
-right: 47.51%;
-top: 18.17%;
-bottom: 79.88%;
-
+}
 
 
 #Group{
@@ -1974,7 +1956,7 @@ top: 19.75%;
 bottom: 80.21%;
 
 transform: matrix(1, 0, 0, -1, 0, 0);
-
+}
 
 #Vector{
 
@@ -1986,7 +1968,7 @@ top: 128.36px;
 
 background: #F79410;
 transform: matrix(1, 0, 0, -1, 0, 0);
-
+}
 
 #Vector{
 
@@ -1997,7 +1979,7 @@ left: 742.87px;
 top: 119.49px;
 
 background: #FF5F00;
-
+}
 
 #Group{
 
@@ -2008,7 +1990,7 @@ top: 20.12%;
 bottom: 77.94%;
 
 transform: matrix(1, 0, 0, -1, 0, 0);
-
+}
 
 #Vector{
 
@@ -2020,7 +2002,7 @@ top: 130.76px;
 
 background: #EB001B;
 transform: matrix(1, 0, 0, -1, 0, 0);
-
+}
 
 #Group{
 
@@ -2031,7 +2013,7 @@ top: 20.12%;
 bottom: 77.94%;
 
 transform: matrix(1, 0, 0, -1, 0, 0);
-
+}
 
 #Vector{
 
@@ -3649,3 +3631,4 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
+ */
