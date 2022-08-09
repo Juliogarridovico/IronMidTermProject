@@ -1,3 +1,25 @@
+/* 
+*************
+Hero-Section START
+*************
+*/
+
+#Hero-Section {
+    display: flex;
+    width: 1440px;
+    height: 650px;
+    left: calc(50% - 1440px-2);
+    top: 222px;
+}
+
+
+/* 
+*************
+Hero-Section END
+*************
+*/
+
+
 #Homepage{
 
 position: relative;
@@ -18,7 +40,7 @@ bottom: 0px;
 }
 
 
-#Container{
+#Container {
 
 display: flex;
 width: 1100px;
@@ -372,10 +394,10 @@ top: 85px;
 
 }
 
-#Home{
+#Home {
 
 width: 46px;
-height: 22px;
+height: 22px; }
 
 #Web-Headline-Medium {
 font-style: normal;
@@ -387,9 +409,9 @@ line-height: 130%;
 #identical {
     to box height, or 22px}
 
-#Primary-Default{
+#Primary-Default {
 color: #072AC8;
-
+}
 
 #Inside auto layout{
 flex: none;
@@ -1476,14 +1498,7 @@ bottom: 41.31%;
 background: #000000;
 
 
-#Hero-Section {
 
-display: flex;
-width: 1440px;
-height: 650px;
-left: calc(50% - 1440px-2);
-top: 222px;
-}
 
 
 .Container {
@@ -1496,13 +1511,14 @@ top: 0px;
 }
 
 
-#Content{
+#Content {
 
 display: flex;
 width: 530px;
 height: 422px;
 left: 170px;
 top: 109px;
+}
 
 
 
@@ -2225,13 +2241,14 @@ top: 1298px;
 
 
 
-#Container{
+.Container {
 
 display: flex;
 width: 1100px;
 height: 561px;
 left: 170px;
 top: 0px;
+}
 
 
 
@@ -3214,7 +3231,7 @@ top: 120px;
 
 
 
-#Content{
+.Content{
 
 display: flex;
 width: 621px;
