@@ -15,22 +15,10 @@ a {
 }
 
 .image-start {
-  display: absolute;
   width: 1100px;
   height: 444px;
   left: 170px;
   top: 204px;
-}
-
-h1 {
-  font-family: Roboto;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #292e47;
-  
 }
 
 p.text-info {
