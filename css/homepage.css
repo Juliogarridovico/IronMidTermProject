@@ -1,10 +1,10 @@
 /* 
-*************
-Hero-Section START
-*************
+*******************
+Hero Section START
+*******************
 */
 
-#Hero-Section {
+#hero-Section {
     display: flex;
     width: 1440px;
     height: 650px;
@@ -12,7 +12,7 @@ Hero-Section START
     top: 222px;
 }
 
-.container {
+.container-HeroSection {
     display: flex;
     width: 1100px;
     height: 650px;
@@ -20,7 +20,7 @@ Hero-Section START
     top: 0px;
 }
 
-.Content {
+.content-HeroSection {
     display: flex;
     width: 530px;
     height: 422px;
@@ -28,7 +28,7 @@ Hero-Section START
     top: 109px;
 }
 
-.Image {
+.image {
     display: flex;
     width: 570px;
     height: 650px;
@@ -36,7 +36,7 @@ Hero-Section START
     top: 0px;
 }
 
-.Card-1 {
+.card-1 {
     display: flex;
     width: 190px;
     height: 216px;
@@ -44,7 +44,7 @@ Hero-Section START
     top: 25px;
 }
 
-.Card-2 {
+.card-2 {
     display: flex;
     width: 190px;
     height: 193px;
@@ -52,18 +52,70 @@ Hero-Section START
     top: 457px;
 }
 
-#Hero-Image{
+#hero-Image{
     display: flex;
     width: 614.96px;
     height: 637.41px;
     left: -22px;
     top: 0px;
 }
+
 /* 
-*************
-Hero-Section END
-*************
+*******************
+Hero Section END
+*******************
 */
+
+/* 
+*******************
+Client Section START
+*******************
+
+[1] Los logos están ordenados en _reverse_ y cada uno tiene
+un orden asignado, estando el (Grupo 23) entre el 24 y 25.
+[2] Hay un rectangulo debajo de cada logo en modo: ( visibility: hidden;)
+entiendo que será el área de actuación del ratón para el cambio
+de color y al click, el href www. a la web de la empresa del logo.
+
+*/
+
+#client-Section {
+    display: flex;
+    width: 1440px;
+    height: 96px;
+    left: calc(50% - 1440px/2);
+    top: 1002px;
+}
+
+.clients-Grayscale {
+    position: absolute;
+    width: 1077px;
+    height: 96px;
+    left: 193px;
+    top: 0px;
+}
+
+.container-ClientSection {
+    position: absolute;
+    width: 1100px;
+    height: 96px;
+    left: 170px;
+    top: 0px;
+}
+
+/* 
+*******************
+Client Section END
+*******************
+*/
+
+
+
+
+
+
+
+
 
 /* 
 #Homepage{
