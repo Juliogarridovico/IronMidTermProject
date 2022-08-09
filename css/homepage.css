@@ -12,7 +12,53 @@ Hero-Section START
     top: 222px;
 }
 
+.container {
+    display: flex;
+    width: 1100px;
+    height: 650px;
+    left: 170px;
+    top: 0px;
+}
 
+.Content {
+    display: flex;
+    width: 530px;
+    height: 422px;
+    left: 170px;
+    top: 109px;
+}
+
+.Image {
+    display: flex;
+    width: 570px;
+    height: 650px;
+    left: 700px;
+    top: 0px;
+}
+
+.Card-1 {
+    display: flex;
+    width: 190px;
+    height: 216px;
+    left: 700px;
+    top: 25px;
+}
+
+.Card-2 {
+    display: flex;
+    width: 190px;
+    height: 193px;
+    left: 1080px;
+    top: 457px;
+}
+
+#Hero-Image{
+    display: flex;
+    width: 614.96px;
+    height: 637.41px;
+    left: -22px;
+    top: 0px;
+}
 /* 
 *************
 Hero-Section END
@@ -1488,27 +1534,13 @@ top: 222px;
 >>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
-.Container {
 
-display: flex;
-width: 1100px;
-height: 650px;
-left: 170px;
-top: 0px;
-}
 <<<<<<< HEAD
 
 =======
 >>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
-#Content {
 
-display: flex;
-width: 530px;
-height: 422px;
-left: 170px;
-top: 109px;
-}
 <<<<<<< HEAD
 
 =======
@@ -1608,14 +1640,7 @@ color: #6B708D;
 }
 
 
-#Image{
 
-display: flex;
-width: 570px;
-height: 650px;
-left: 700px;
-top: 0px;
-}
 
 
 #Hero Image{
@@ -1628,14 +1653,7 @@ top: 0px;
 }
 
 
-#Hero-Image{
 
-display: flex;
-width: 614.96px;
-height: 637.41px;
-left: -22px;
-top: 0px;
-}
 
 
 #Ellipse-5{
@@ -1687,14 +1705,6 @@ background: url(Hero.png);
 transform: matrix(-1, -0.02, -0.02, 1, 0, 0);
 }
 
-#Card-2{
-
-display: flex;
-width: 190px;
-height: 193px;
-left: 1080px;
-top: 457px;
-}
 
 
 #Rectangle-69{
@@ -1776,15 +1786,7 @@ color: #6B708D;
 
 }
 
-#Card-1{
 
-display: flex;
-width: 190px;
-height: 216px;
-left: 700px;
-top: 25px;
-
-}
 
 #Rectangle-69{
 
