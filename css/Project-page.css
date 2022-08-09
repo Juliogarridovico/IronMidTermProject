@@ -1,0 +1,1165 @@
+/* Project Page */
+
+position: relative;
+width: 1440px;
+height: 3186px;
+
+/* Neutral/Light */
+background: #F4F6FC;
+
+
+/* Footer Section */
+
+display: flex;
+width: 1440px;
+height: 242px;
+left: calc(50% - 1440px/2);
+bottom: 0px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1100px;
+height: 112px;
+left: 170px;
+top: 30px;
+
+
+
+/* Links */
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+top: 30px;
+
+
+
+/* Group 18 */
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+top: 30px;
+
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 106px;
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+bottom: 100px;
+
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 43px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Team */
+
+width: 43px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Press */
+
+width: 43px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 65px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Services */
+
+width: 65px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Projects */
+
+width: 63px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 105px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 70px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Privacy Policy */
+
+width: 105px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+display: flex;
+width: 260px;
+height: 112px;
+left: 170px;
+top: 30px;
+
+
+
+/* 2972 Westheimer Rd. Santa Ana, Illinois 85486 */
+
+display: flex;
+width: 260px;
+height: 52px;
+left: 170px;
+bottom: 100px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Logo */
+
+display: flex;
+width: 98.38px;
+height: 30px;
+left: 170px;
+top: 30px;
+
+
+
+/* Circle */
+
+display: flex;
+width: 98.38px;
+height: 30px;
+left: 170px;
+bottom: 182px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Navbar */
+
+display: flex;
+width: 1440px;
+height: 122px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1099.36px;
+height: 52px;
+left: 170.64px;
+top: 70px;
+
+
+
+/* Logo */
+
+display: flex;
+width: 60.53px;
+height: 18.46px;
+left: 170.64px;
+top: 86.91px;
+
+
+
+/* Circle */
+
+display: flex;
+width: 60.53px;
+height: 18.46px;
+left: 170.64px;
+top: 86.91px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+display: flex;
+width: 295px;
+height: 22px;
+left: 544px;
+top: 85px;
+
+
+
+/* Home */
+
+width: 46px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Projects */
+
+width: 63px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Services */
+
+width: 66px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 36px;
+gap: 10px;
+
+display: flex;
+width: 150px;
+height: 52px;
+left: 1120px;
+top: 70px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Contact Us */
+
+width: 84px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CTA Section */
+
+display: flex;
+width: 1320px;
+height: 500px;
+left: calc(50% - 1320px/2);
+bottom: 412px;
+
+
+
+/* BG */
+
+display: flex;
+width: 1320px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+/* Secondary/1 */
+background: #FFC600;
+
+
+/* Container */
+
+display: flex;
+width: 1100px;
+height: 227px;
+left: 110px;
+top: 136px;
+
+
+
+/* Do you have any questions? */
+
+display: flex;
+width: 500px;
+height: 47px;
+left: 300px;
+top: 0px;
+
+/* H3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Let us help you! */
+
+display: flex;
+width: 139px;
+height: 30px;
+left: 481px;
+top: 67px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Text Field */
+
+display: flex;
+width: 393px;
+height: 80px;
+left: 245px;
+top: 147px;
+
+
+
+/* Rectangle 75 */
+
+box-sizing: border-box;
+
+display: flex;
+width: 393px;
+height: 80px;
+left: 245px;
+top: 147px;
+
+/* Neutral/Light */
+background: #F4F6FC;
+
+
+/* mail(32x32)@1x 1 */
+
+display: flex;
+width: 30px;
+height: 30px;
+left: 275px;
+top: 172px;
+
+
+
+/* Vector */
+
+display: flex;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* Neutral/Dark */
+border: 1.25px solid #292E47;
+
+
+/* Vector */
+
+display: flex;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 45.83%;
+
+/* Neutral/Dark */
+border: 1.25px solid #292E47;
+
+
+/* Enter your email */
+
+display: flex;
+width: 123px;
+height: 26px;
+left: 315px;
+top: 174px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+text-align: center;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Subscribe */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 37px;
+gap: 10px;
+
+display: flex;
+width: 198px;
+height: 80px;
+left: 658px;
+top: 147px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Subscribe */
+
+width: 77px;
+height: 22px;
+
+/* Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Project Section */
+
+display: flex;
+width: 1440px;
+height: 1181px;
+left: 0px;
+top: 262px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1100px;
+height: 934px;
+left: 170px;
+top: 204px;
+
+
+
+/* Project */
+
+display: flex;
+width: 1100px;
+height: 934px;
+left: 170px;
+top: 204px;
+
+
+
+/* Rectangle 70 */
+
+display: flex;
+visibility: hidden;
+width: 1093.04px;
+height: 444px;
+left: 170px;
+top: 204px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 71 */
+
+display: flex;
+width: 1100px;
+height: 444px;
+left: 170px;
+top: 218px;
+
+background: url(4.jpg);
+filter: blur(80px);
+
+
+/* Rectangle 72 */
+
+display: flex;
+width: 1100px;
+height: 444px;
+left: 170px;
+top: 204px;
+
+background: url(4.jpg);
+
+
+/* Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nis cillum minim tempor enim. */
+
+display: flex;
+width: 1100px;
+height: 420px;
+left: 170px;
+top: 718px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Simplify */
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 170px;
+top: 6px;
+
+/* H1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* UI Design & App Development */
+
+display: flex;
+width: 530px;
+height: 28px;
+left: 170px;
+top: 96px;
+
+/* Body/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Completed on June 22, 2021 */
+
+display: flex;
+width: 255px;
+height: 30px;
+left: 1015px;
+top: 94px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+text-align: right;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Projects Section */
+
+display: flex;
+width: 1440px;
+height: 561px;
+left: calc(50% - 1440px/2);
+top: 1513px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1100px;
+height: 561px;
+left: 170px;
+top: 0px;
+
+
+
+/* Other Projects */
+
+display: flex;
+width: 434px;
+height: 47px;
+left: 170px;
+top: 0px;
+
+/* H3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Projects */
+
+display: flex;
+width: 1100px;
+height: 444px;
+left: 170px;
+top: 117px;
+
+
+
+/* Project 1 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 170px;
+top: 117px;
+
+
+
+/* Rectangle 70 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 170px;
+top: 117px;
+
+background: #FFFFFF;
+box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+
+
+/* Rectangle 71 */
+
+display: flex;
+width: 340px;
+height: 240px;
+left: 170px;
+top: 117px;
+
+background: url(4);
+
+
+/* Orbit */
+
+display: flex;
+width: 53px;
+height: 28px;
+left: 200px;
+top: 387px;
+
+/* Body/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* UI Design */
+
+display: flex;
+width: 72px;
+height: 26px;
+left: 200px;
+top: 425px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Learn more */
+
+display: flex;
+width: 86px;
+height: 26px;
+left: 200px;
+top: 505px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Primary/Default */
+color: #072AC8;
+
+
+
+/* Project 2 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 550px;
+top: 117px;
+
+
+
+/* Rectangle 70 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 550px;
+top: 117px;
+
+background: #FFFFFF;
+box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+
+
+/* Rectangle 71 */
+
+display: flex;
+width: 340px;
+height: 240px;
+left: 550px;
+top: 117px;
+
+background: url(5);
+
+
+/* Purify */
+
+display: flex;
+width: 64px;
+height: 28px;
+left: 580px;
+top: 387px;
+
+/* Body/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* UI/UX Design */
+
+display: flex;
+width: 101px;
+height: 26px;
+left: 580px;
+top: 425px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Learn more */
+
+display: flex;
+width: 86px;
+height: 26px;
+left: 580px;
+top: 505px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Primary/Default */
+color: #072AC8;
+
+
+
+/* Project 3 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 930px;
+top: 117px;
+
+
+
+/* Rectangle 70 */
+
+display: flex;
+width: 340px;
+height: 444px;
+left: 930px;
+top: 117px;
+
+background: #FFFFFF;
+box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+
+
+/* Rectangle 71 */
+
+display: flex;
+width: 340px;
+height: 240px;
+left: 930px;
+top: 117px;
+
+background: url(6);
+
+
+/* CryptoPie */
+
+display: flex;
+width: 106px;
+height: 28px;
+left: 960px;
+top: 387px;
+
+/* Body/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* App Development */
+
+display: flex;
+width: 134px;
+height: 26px;
+left: 960px;
+top: 425px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Learn more */
+
+display: flex;
+width: 86px;
+height: 26px;
+left: 960px;
+top: 505px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Primary/Default */
+color: #072AC8;
+

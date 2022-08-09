@@ -1,0 +1,867 @@
+/* Contac Us Page */
+
+position: relative;
+width: 1440px;
+height: 1474px;
+
+/* Neutral/Light */
+background: #F4F6FC;
+
+
+/* Footer Section */
+
+display: flex;
+width: 1440px;
+height: 242px;
+left: calc(50% - 1440px/2);
+bottom: 0px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1100px;
+height: 112px;
+left: 170px;
+top: 30px;
+
+
+
+/* Links */
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+top: 30px;
+
+
+
+/* Group 18 */
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+top: 30px;
+
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 106px;
+
+display: flex;
+width: 435px;
+height: 112px;
+left: 835px;
+bottom: 100px;
+
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 43px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Team */
+
+width: 43px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Press */
+
+width: 43px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 65px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Services */
+
+width: 65px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Projects */
+
+width: 63px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 105px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 70px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Privacy Policy */
+
+width: 105px;
+height: 26px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+display: flex;
+width: 260px;
+height: 112px;
+left: 170px;
+top: 30px;
+
+
+
+/* 2972 Westheimer Rd. Santa Ana, Illinois 85486 */
+
+display: flex;
+width: 260px;
+height: 52px;
+left: 170px;
+bottom: 100px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Logo */
+
+display: flex;
+width: 98.38px;
+height: 30px;
+left: 170px;
+top: 30px;
+
+
+
+/* Circle */
+
+display: flex;
+width: 98.38px;
+height: 30px;
+left: 170px;
+bottom: 182px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Navbar */
+
+display: flex;
+width: 1440px;
+height: 122px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+
+
+/* Container */
+
+display: flex;
+width: 1099.36px;
+height: 52px;
+left: 170.64px;
+top: 70px;
+
+
+
+/* Logo */
+
+display: flex;
+width: 60.53px;
+height: 18.46px;
+left: 170.64px;
+top: 86.91px;
+
+
+
+/* Circle */
+
+display: flex;
+width: 60.53px;
+height: 18.46px;
+left: 170.64px;
+top: 86.91px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+display: flex;
+width: 295px;
+height: 22px;
+left: 544px;
+top: 85px;
+
+
+
+/* Home */
+
+width: 46px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Projects */
+
+width: 63px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Services */
+
+width: 66px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 36px;
+gap: 10px;
+
+display: flex;
+width: 150px;
+height: 52px;
+left: 1120px;
+top: 70px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Contact Us */
+
+width: 84px;
+height: 22px;
+
+/* Web/Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Contact Us Section */
+
+display: flex;
+width: 1440px;
+height: 830px;
+left: calc(50% - 1440px/2);
+top: 262px;
+
+
+
+/* Contact Us */
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 170px;
+top: 6px;
+
+/* H1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+
+/* Neutral/Dark */
+color: #292E47;
+
+
+
+/* Contact-form */
+
+display: flex;
+width: 1100px;
+height: 660px;
+left: 170px;
+top: 156px;
+
+
+
+/* Field */
+
+display: flex;
+width: 1100px;
+height: 110px;
+left: 0px;
+top: 0px;
+
+
+
+/* Full Name * */
+
+display: flex;
+width: 301.05px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Text Field */
+
+display: flex;
+width: 1100px;
+height: 70px;
+left: 0px;
+top: 40px;
+
+
+
+/* Rectangle 77 */
+
+box-sizing: border-box;
+
+display: flex;
+width: 1100px;
+height: 70px;
+left: 0px;
+top: 40px;
+
+background: rgba(107, 112, 141, 0.1);
+
+
+/* Enter your full name */
+
+display: flex;
+width: 162px;
+height: 26px;
+left: 20px;
+top: 62px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Field */
+
+display: flex;
+width: 530px;
+height: 110px;
+left: 0px;
+top: 150px;
+
+
+
+/* Email */
+
+display: flex;
+width: 71.05px;
+height: 30px;
+left: 0px;
+top: 150px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Text Field */
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 0px;
+top: 190px;
+
+
+
+/* Rectangle 77 */
+
+box-sizing: border-box;
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 0px;
+top: 190px;
+
+background: rgba(107, 112, 141, 0.1);
+
+
+/* Enter your email address */
+
+display: flex;
+width: 265px;
+height: 26px;
+left: 20px;
+top: 212px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Field */
+
+display: flex;
+width: 1100px;
+height: 240px;
+left: 0px;
+top: 300px;
+
+
+
+/* Message */
+
+display: flex;
+width: 170px;
+height: 30.26px;
+left: 0px;
+top: 300px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Text Field */
+
+display: flex;
+width: 1100px;
+height: 200px;
+left: 0px;
+top: 340px;
+
+
+
+/* Rectangle 77 */
+
+box-sizing: border-box;
+
+display: flex;
+width: 1100px;
+height: 200px;
+left: 0px;
+top: 340px;
+
+background: rgba(107, 112, 141, 0.1);
+
+
+/* Write your message here .... */
+
+display: flex;
+width: 210px;
+height: 26px;
+left: 20px;
+top: 362px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Field */
+
+display: flex;
+width: 530px;
+height: 110px;
+left: 570px;
+top: 150px;
+
+
+
+/* Phone */
+
+display: flex;
+width: 69.74px;
+height: 30px;
+left: 570px;
+top: 150px;
+
+/* Body/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Text Field */
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 570px;
+top: 190px;
+
+
+
+/* Rectangle 77 */
+
+box-sizing: border-box;
+
+display: flex;
+width: 530px;
+height: 70px;
+left: 570px;
+top: 190px;
+
+background: rgba(107, 112, 141, 0.1);
+
+
+/* Enter your phone number */
+
+display: flex;
+width: 260px;
+height: 26px;
+left: 590px;
+top: 212px;
+
+/* Headline/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+/* Neutral/Medium */
+color: #6B708D;
+
+
+
+/* Submit */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 37px;
+gap: 10px;
+
+display: flex;
+width: 1100px;
+height: 80px;
+left: 0px;
+top: 580px;
+
+/* Primary/Default */
+background: #072AC8;
+
+
+/* Submit */
+
+width: 55px;
+height: 22px;
+
+/* Headline/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
