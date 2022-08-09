@@ -1,0 +1,19 @@
+:root {
+    --default-color: #072AC8;
+    --accent-color: #43D2FF;
+    --hover-color: #A2D6F9;
+    --tapped-color: #D1EDFF;
+    --dark-color: #292E47;
+    --medium-color: #6B708D;
+    --light-color: #F4F6FC;
+    --light-blue: #ECF7FF;
+    --secondary-color: #FFC600;
+}
+
+/* 
+
+Así se aplica:
+body {
+    background-color: var(--light-color);
+
+} */

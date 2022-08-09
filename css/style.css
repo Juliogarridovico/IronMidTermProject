@@ -4,7 +4,7 @@ Estilos generales
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   font-family: "Roboto";
-  background: #e5e5e5;
+  background: var(--light-color);
 }
 
 h1 {
