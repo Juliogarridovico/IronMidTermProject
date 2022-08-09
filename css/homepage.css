@@ -377,13 +377,15 @@ top: 85px;
 width: 46px;
 height: 22px;
 
-#Web-Headline-Medium{
-font-family: 'Roboto';
+#Web-Headline-Medium {
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
-#identical to box height, or 22px{
+}
+
+#identical {
+    to box height, or 22px}
 
 #Primary-Default{
 color: #072AC8;
@@ -1474,24 +1476,24 @@ bottom: 41.31%;
 background: #000000;
 
 
-#Hero Section{
+#Hero-Section {
 
 display: flex;
 width: 1440px;
 height: 650px;
 left: calc(50% - 1440px-2);
 top: 222px;
+}
 
 
-
-#Container{
+.Container {
 
 display: flex;
 width: 1100px;
 height: 650px;
 left: 170px;
 top: 0px;
-
+}
 
 
 #Content{
