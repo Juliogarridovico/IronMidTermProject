@@ -5,6 +5,7 @@ Estilos generales
 body {
   font-family: "Roboto";
   background: var(--light-color);
+  font-size: 16px;
 }
 
 h1 {
