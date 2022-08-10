@@ -3,87 +3,78 @@ Estilos generales
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  font-family: roboto;
+  font-family: "Roboto";
+  background: var(--light-color);
+  font-size: 16px;
 }
 
 h1 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
-
-  color: #514d67;
+  color: #292e47;
 }
 
-H2 {
-  font-family: "Roboto";
+h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
   /* identical to box height */
-
-  color: #514d67;
+  color: #000000;
 }
 
-H3 {
-  color: #514d67;
-
-  position: absolute;
-  width: 215px;
-  height: 28px;
-  left: 759px;
-  top: 352px;
+h3 {
+  color: #292e47;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
 }
-H4 {
+
+h4 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-
-  color: #514d67;
+  color: #000000;
 }
+
 #Body-Medium {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-
-  color: #514d67;
+  color: #292e47;
 }
 #Body-Regular {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   /* identical to box height, or 30px */
-
-  color: #514d67;
+  color: #6b708d;
 }
 
 #Headline-Regular {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
   /* identical to box height, or 26px */
 
-  color: #514d67;
+  color: #6b708d;
 }
 #Headline-Medium {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 130%;
   /* identical to box height, or 22px */
-
-  color: #514d67;
+  color: #ffffff;
 }
 
 #Caption-1 {

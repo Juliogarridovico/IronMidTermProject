@@ -1,3 +1,120 @@
+/* 
+*******************
+Hero Section START
+*******************
+*/
+
+#hero-Section {
+    display: flex;
+    width: 100%;
+    height: 40.625em;
+    padding: 13.875em;
+}
+
+.container-HeroSection {
+    display: flex;
+    border: red 1px solid;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row, nowrap;
+    width: 76.39%;
+}
+
+.content-HeroSection {
+    border: rgb(70, 169, 154) 1px solid;
+    align-items: center;
+    width: 31.81%;
+    height: 26.375em;
+    left: 10.625em;
+    top: 6.813em;
+}
+
+.image {
+    border: rgb(241, 40, 252) 1px solid;
+    width: 39.58%;
+    height:auto;
+    left: 43.75em;
+    top: 0em;
+}
+
+.card-1 {
+    width: 50%;
+    height: auto;
+    left: 43.75em;
+    top: 1.563em;
+}
+
+.card-2 {
+    width: 11.875em;
+    height: 12.063em;
+    left: 67.5em;
+    top: 28.563em;
+}
+
+#hero-Image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+*******************
+Hero Section END
+*******************
+*/
+
+/* 
+*******************
+Client Section START
+*******************
+
+[1] Los logos están ordenados en _reverse_ y cada uno tiene
+un orden asignado, estando el (Grupo 23) entre el 24 y 25.
+[2] Hay un rectangulo debajo de cada logo en modo: ( visibility: hidden;)
+entiendo que será el área de actuación del ratón para el cambio
+de color y al click, el href www. a la web de la empresa del logo.
+
+*/
+
+#client-Section {
+    visibility: hidden;
+    display: flex;
+    width: 1440px;
+    height: 96px;
+    left: calc(50% - 1440px/2);
+    top: 1002px;
+}
+
+.clients-Grayscale {
+    position: absolute;
+    width: 1077px;
+    height: 96px;
+    left: 193px;
+    top: 0px;
+}
+
+.container-ClientSection {
+    position: absolute;
+    width: 1100px;
+    height: 96px;
+    left: 170px;
+    top: 0px;
+}
+
+/* 
+*******************
+Client Section END
+*******************
+*/
+
+
+
+
+
+
+
+
+
+/* 
 #Homepage{
 
 position: relative;
@@ -18,7 +135,7 @@ bottom: 0px;
 }
 
 
-#Container{
+#Container {
 
 display: flex;
 width: 1100px;
@@ -372,20 +489,35 @@ top: 85px;
 
 }
 
-#Home{
+#Home {
 
 width: 46px;
+<<<<<<< HEAD
+height: 22px; }
+
+#Web-Headline-Medium {
+=======
 height: 22px;
 }
 #Web-Headline-Medium{
 font-family: 'Roboto';
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 130%;
+<<<<<<< HEAD
+}
+
+#identical {
+    to box height, or 22px}
+
+#Primary-Default {
+=======
 
 }
 #Primary-Default{
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 color: #072AC8;
 }
 
@@ -1063,7 +1195,7 @@ right: 74.93%;
 top: 0.51%;
 bottom: 24.62%;
 
-background: #7F7F7F; */
+background: #7F7F7F;
 
 
 #Group-23{
@@ -1117,7 +1249,7 @@ right: 0.82%;
 top: -0.07%;
 bottom: 0%;
 
-background: #656565; */
+background: #656565; 
 
 
 #Group-25{
@@ -1215,7 +1347,7 @@ right: 78.41%;
 top: 52.48%;
 bottom: 0%;
 
-background: #BBBBBB; */
+background: #BBBBBB;
 
 
 #Group-26{
@@ -1434,9 +1566,12 @@ right: 84.87%;
 top: 0%;
 bottom: 41.31%;
 
-background: #000000; */
+background: #000000;
 
 
+<<<<<<< HEAD
+
+=======
 #Hero Section{
 
 display: flex;
@@ -1445,26 +1580,20 @@ height: 650px;
 left: calc(50% - 1440px-2);
 top: 222px;
 }
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
-#Container{
 
-display: flex;
-width: 1100px;
-height: 650px;
-left: 170px;
-top: 0px;
-}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
-#Content{
+<<<<<<< HEAD
 
-display: flex;
-width: 530px;
-height: 422px;
-left: 170px;
-top: 109px;
-}
+=======
+>>>>>>> 7cebe81ddbec58b31e68b3caeaa68b6eb20b8e74
 
 
 #See our work{
@@ -1560,14 +1689,7 @@ color: #6B708D;
 }
 
 
-#Image{
 
-display: flex;
-width: 570px;
-height: 650px;
-left: 700px;
-top: 0px;
-}
 
 
 #Hero Image{
@@ -1580,14 +1702,7 @@ top: 0px;
 }
 
 
-#Hero-Image{
 
-display: flex;
-width: 614.96px;
-height: 637.41px;
-left: -22px;
-top: 0px;
-}
 
 
 #Ellipse-5{
@@ -1639,14 +1754,6 @@ background: url(Hero.png);
 transform: matrix(-1, -0.02, -0.02, 1, 0, 0);
 }
 
-#Card-2{
-
-display: flex;
-width: 190px;
-height: 193px;
-left: 1080px;
-top: 457px;
-}
 
 
 #Rectangle-69{
@@ -1728,15 +1835,7 @@ color: #6B708D;
 
 }
 
-#Card-1{
 
-display: flex;
-width: 190px;
-height: 216px;
-left: 700px;
-top: 25px;
-
-}
 
 #Rectangle-69{
 
@@ -2174,7 +2273,7 @@ top: 1298px;
 }
 
 
-#Container{
+.Container {
 
 display: flex;
 width: 1100px;
@@ -3158,7 +3257,7 @@ top: 120px;
 
 
 
-#Content{
+.Content{
 
 display: flex;
 width: 621px;
@@ -3576,3 +3675,4 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
+ */
