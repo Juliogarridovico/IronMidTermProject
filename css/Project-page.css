@@ -1,3 +1,7 @@
+#project-page {
+  margin: 0em 4em 10em 4em;
+}
+
 a#Headline-Regular {
   color: #072AC8;
 }
@@ -54,34 +58,16 @@ h1.simplify {
 }
 
 
-
-
-
-
-
 #project-1 {
-  width: 340px;
-  height: 444px;
-  left: 170px;
-  top: 117px;
   background-color: #ffffff;
   box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
-  margin-right: 40px;
 }
 #project-2 {
-  width: 340px;
-  height: 444px;
-  left: 550px;
-  top: 117px;
   background-color: #ffffff;
   box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
-  margin-right: 40px;
 }
 #project-3 {
-  width: 340px;
-  height: 444px;
-  left: 930px;
-  top: 117px;
+
   background-color: #ffffff;
   box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
 }
@@ -93,18 +79,35 @@ h1.simplify {
     top: 117px;
 }
 
-#projects-section {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: row;
-}
 
 .projects {
-    display: flex;
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 69em;
+}
     
 
+#cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.title-projects {
+  text-align: left;
+  width: 69rem;
 }
 
 
