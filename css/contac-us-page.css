@@ -7,10 +7,10 @@ ul {
 .espacio {
   position: relative;
   max-width: 1440px;
-  height: 122px;
-  left: calc(50% - 1440px/2);
-  top: 0px;
-
+  /* height: 122px; */
+  
+  
+  margin: auto;
 }
 
 /* locura flex 
@@ -46,7 +46,7 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
   .row {
     display: flex;
     flex-direction: row;
-    margin: 0px;
+   
     padding: 0px;
 
 
