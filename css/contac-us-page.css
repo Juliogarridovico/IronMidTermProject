@@ -1,16 +1,18 @@
 ul {
- list-style: none;
-  
-  
-}
-.espacio{
-  position: relative;
-  max-width: 1440px;
-height: 122px;
-left: calc(50% - 1440px/2);
-top: 0px;
+  list-style: none;
+
 
 }
+
+.espacio {
+  position: relative;
+  max-width: 1440px;
+  height: 122px;
+  left: calc(50% - 1440px/2);
+  top: 0px;
+
+}
+
 /* locura flex 
 sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-responsiva-flexbox/
 */
@@ -18,17 +20,19 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
 
 .col {
   padding: 0px;
-  margin:  0px;
-  
+  margin: 0px;
+
   border: 1px solid #000;
   background: #ecdb54;
 }
+
 .centrar {
   justify-content: center;
-  
+
 }
+
 .wrap {
-  
+
   flex-wrap: wrap;
 }
 
@@ -44,17 +48,17 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
     flex-direction: row;
     margin: 0px;
     padding: 0px;
-    
-    
-  
+
+
+
   }
 
 
- 
+
   .col {
     flex: 1;
   }
- 
+
   .col-05 {
     flex: 0.5;
   }
@@ -66,19 +70,19 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
   .col-15 {
     flex: 1.5;
   }
-  
+
   .col-20 {
     flex: 2;
   }
-  
+
   .col-25 {
     flex: 2.5;
   }
-  
+
   .col-30 {
     flex: 3;
   }
-  
+
   .col-35 {
     flex: 3.5;
   }
@@ -86,49 +90,48 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
   .col-40 {
     flex: 4;
   }
-  
+
   .col-45 {
     flex: 4.5;
   }
-  
+
   .col-50 {
     flex: 5;
   }
-  
+
   .col-55 {
     flex: 5.5;
   }
-  
+
   .col-60 {
     flex: 6;
   }
-  
+
   .col-65 {
     flex: 6.5;
   }
-  
+
   .col-70 {
     flex: 7;
   }
-  
+
   .col-75 {
     flex: 7.5;
   }
-  
+
   .col-80 {
     flex: 8;
   }
-  
+
   .col-85 {
     flex: 8.5;
   }
-  
+
   .col-90 {
     flex: 9;
   }
-  
+
   .col-95 {
     flex: 9.5;
   }
 }
-
