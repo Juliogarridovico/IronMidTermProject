@@ -45,14 +45,14 @@ h4 {
   color: #000000;
 }
 
-#Body-Medium {
+.Body-Medium {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #292e47;
 }
-#Body-Regular {
+.Body-Regular {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -61,7 +61,7 @@ h4 {
   color: #6b708d;
 }
 
-#Headline-Regular {
+.Headline-Regular {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -70,7 +70,7 @@ h4 {
 
   color: #6b708d;
 }
-#Headline-Medium {
+.Headline-Medium {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -79,7 +79,7 @@ h4 {
   color: #ffffff;
 }
 
-#Caption-1 {
+.Caption-1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -89,7 +89,7 @@ h4 {
 
   color: #514d67;
 }
-#Caption-2 {
+.Caption-2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
