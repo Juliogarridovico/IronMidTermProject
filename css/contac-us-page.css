@@ -1,38 +1,60 @@
 ul {
   list-style: none;
+}
+.color-text-Field {
+  background: rgba(107, 112, 141, 0.1);
+}
+input {
+  border: 0px;
+  width: 100%;
+  height: 70px;
+}
 
-
+textarea {
+  border: 0px;
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+fieldset {
+  border: 0px;
 }
 
 .espacio {
   position: relative;
   max-width: 1440px;
-  /* height: 122px; */
-  
-  
+
   margin: auto;
 }
 
-/* locura flex 
-sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-responsiva-flexbox/
-*/
+.espaciado-ancho {
+  width: 1.875rem;
+}
 
+button {
+  padding: 0.95em 1.75em 0.95em 1.75em;
+  font-size: 1.5em;
+  background-color: darkblue;
+  width: 100%;
+  color: white;
+  border: none;
+}
+
+/* locura flex 
+sistema grid para maquetar mas rapido o eso creia yo https://www.neoguias.com/crear-grid-responsiva-flexbox/
+*/
 
 .col {
   padding: 0px;
   margin: 0px;
-
-  border: 1px solid #000;
-  background: #ecdb54;
+  padding-top: 40px;
 }
 
 .centrar {
   justify-content: center;
-
 }
 
 .wrap {
-
   flex-wrap: wrap;
 }
 
@@ -46,14 +68,9 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
   .row {
     display: flex;
     flex-direction: row;
-   
+
     padding: 0px;
-
-
-
   }
-
-
 
   .col {
     flex: 1;
