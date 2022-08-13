@@ -91,13 +91,6 @@ h1.simplify {
 }
     
 
-#cta-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-
 #projects-section {
     display: flex;
     flex-direction: column;
@@ -110,6 +103,65 @@ h1.simplify {
   width: 69rem;
 }
 
+.text-rectangle {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.projects h5 {
+  margin-bottom: 0em;
+}
+
+.projects a {
+  display: inline-block;
+  margin-top: 3em;
+  text-decoration: none;
+}
+
+#cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background: #FFC600;
+  margin-top: 10em;
+  height: 30em;
+}
+
+.text-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.submit-things {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  background-color: #072AC8;
+  color: #ffffff;
+  width: 12em;
+  height: 3.5em;
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
+
+}
+
+input {
+  background-color: #F4F6FC;
+  background-image: url("project-assets\newsletter\icon\mail.svg");
+  background-position: 10px 10px;
+  width: 24em;
+  height: 3.5em;
+  border: none;
+  margin-right: 1em;
+
+}
 
 /* Rectangle 70  
 
