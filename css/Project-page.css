@@ -2,9 +2,6 @@
   margin: 0em 4em 10em 4em;
 }
 
-a#Headline-Regular {
-  color: #072AC8;
-}
 
 #project-section {
     display: flex;
@@ -16,12 +13,11 @@ a#Headline-Regular {
 }
 
 h1.simplify {
-    width: 1110px;
-    height: 70px;
+    width: 18.5em;
     margin-bottom: 0%;
 }
 
-.under-title {
+#under-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,7 +27,11 @@ h1.simplify {
     margin-top: 1em;
 }
 
-.beginning {
+#date {
+  color: #6B708D;
+}
+
+#beginning {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -48,39 +48,37 @@ h1.simplify {
   height: 30em;
 }
 
-.text-description {
+#text-description {
     text-align: justify;
     
 }
 
-.text-description2 {
+#text-description2 {
     text-align: justify;
 }
 
 
 #project-1 {
   background-color: #ffffff;
-  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+  box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
 }
 #project-2 {
   background-color: #ffffff;
-  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+  box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
 }
 #project-3 {
 
   background-color: #ffffff;
-  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+  box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
 }
 
 .rectangle71 {
-    width: 340px;
-    height: 240px;
-    left: 170px;
-    top: 117px;
+    width: 21em;
+    height: 15em;
 }
 
 
-.projects {
+#projects {
   
   display: flex;
   align-items: center;
@@ -98,7 +96,7 @@ h1.simplify {
     align-content: center;
 }
 
-.title-projects {
+#title-projects {
   text-align: left;
   width: 69rem;
 }
@@ -112,11 +110,6 @@ h1.simplify {
   margin-bottom: 0em;
 }
 
-.projects a {
-  display: inline-block;
-  margin-top: 3em;
-  text-decoration: none;
-}
 
 #cta-section {
   display: flex;
@@ -128,40 +121,60 @@ h1.simplify {
   height: 30em;
 }
 
-.text-cta {
+#text-cta {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5em;
 
 }
+#cta-section h5{
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
 
-.submit-things {
+#cta-section h3 {
+  margin-bottom: 0em;
+}
+
+#submit-things {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 3em;
 }
 
 button {
   background-color: #072AC8;
   color: #ffffff;
   width: 12em;
-  height: 3.5em;
   text-decoration: none;
   font-size: 17px;
   border: none;
+  height: 100%;
 
 }
 
 input {
   background-color: #F4F6FC;
-  background-image: url("project-assets\newsletter\icon\mail.svg");
-  background-position: 10px 10px;
+  background-image: url("/project-assets/newsletter/icon/mail.svg");
+  background-repeat: no-repeat;
+  background-position: 3%;
+  text-indent: 3em;
   width: 24em;
-  height: 3.5em;
   border: none;
   margin-right: 1em;
+  height: 100%;
 
 }
+
+a.Headline-Regular {
+  color: #072AC8;
+  display: inline-block;
+  margin-top: 3em;
+  text-decoration: none;
+}
+
 
 /* Rectangle 70  
 
