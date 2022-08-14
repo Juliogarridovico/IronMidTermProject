@@ -7,13 +7,13 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../IronMidTermProject/css/style.css"
+      href="../css/style.css"
       media="screen"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../IronMidTermProject/css/contac-us-page.css"
+      href="../css/contac-us-page.css"
       media="screen"
     />
     <!-- <script src="../IronMidTermProject/js/menu.js"></script> -->
@@ -21,51 +21,87 @@
   </head>
 
   <body>
-    <header class="row espacio">
-      
+    <header class="cabecera-movil">tests</header>
+    <header class="cabecera-pc">
+      <a href="../index.html">
+        <img class="nav-logo"  src="../project-assets/logos/circle.svg" alt="Circle Logo" />
+      </a>
+      <nav class="nav-bar">
+        <ul class="nav-bar-ul">
+          <li><a href="#">Home</a></li>
+          <li> <a href="#">Projects</a> </li>
+          <li><a class="menu-selected" href="#">Services</a> </li>
+        </ul>
+      </nav>
+      <button >Contact Us</button>
     </header>
     <!-- <form class="" action="" method="get"> -->
     <div class="espacio">
       <div class="row">
-        <div class="col col-100"><h1>Contact US</h1></div>
+        <div class="col col-100"><h1>Contact Us</h1></div>
       </div>
      
       <div class="row">
         <fieldset class="col col-100">
-          <label id="Body-Regular">Full Name</label><br>
+          <label id="Body-Regular">Full Name*</label><br>
           <input id="Body-Regular" class="color-text-Field" type="text" placeholder="Enter you full name" required>
         </fieldset>
       </div>
       <div class="row">
         <fieldset class="col col-45">
           <label id="Body-Regular">Email</label><br>
-          <input id="Body-Regular" class="color-text-Field" placeholder="Enter your email address"></input>
+          <input id="Body-Regular" class="color-text-Field" type="email" placeholder="Enter your email address"></input>
         </fieldset>
         <div class="row">
           <div class="col espaciado-ancho "></div>
         </div>
         <fieldset class="col col-45">
           <label id="Body-Regular">Phone</label><br>
-          <input id="Body-Regular" class="color-text-Field" type="text" placeholder="Enter your phone number">
+          <input id="Body-Regular" class="color-text-Field" type="number" placeholder="Enter your phone number">
         </fieldset>
       </div>
       <div class="row">
         <fieldset class="col col-100">
           <label id="Body-Regular" class=" espaciado-alto">Message</label><br>
-          <textarea id="Body-Regular" class="color-text-Field" type="text" placeholder="Enter your phone number"></textarea>
+          <textarea id="Body-Regular" class="color-text-Field" type="text" placeholder="Write your message here ...."></textarea>
         </fieldset>
       </div>
       <div class="row">
         <div  class="col col-100">
-        <button class="centrar">Contact Us</button>
+        <button class="centrar ancho-boton">Submit</button>
+        
         </div>
       </div>
     </div>
     <!-- </form> -->
    
 
-    <footer class="row espacio">
-   
+ <footer class="footer-distributed">
+      <div class="footer-left">
+          <img class="footer-logo" src="../project-assets/logos/circle.svg" alt="Circle Logo" />
+         <div class="adress"><p>2972 Westheimer Rd. Santa Ana,</p>
+                             <p>llinois 85486</p>
+         </div>
+      </div>
+  
+  <div class="footer-right">
+  
+      <div class="right-1">
+          <ul>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About Us</a></li>
+          </ul>
+      </div>
+      <div class="right-2">
+          <ul>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+          </ul>
+      </div>
+     
+  </div>
   </footer>
   </body>
 </html>

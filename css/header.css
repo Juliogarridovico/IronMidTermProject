@@ -1,0 +1,58 @@
+@media (max-width:780px){
+  .cabecera-pc {
+    display: none;
+  }
+
+}
+@media (min-width:780px){
+  .cabecera-movil {
+    display: none;
+  }
+  
+
+}
+header{
+    margin: 5.3125rem 10.625rem 10.165rem 10.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .menu-selected {
+    color: #072AC8;
+  }
+  
+  .nav-logo{
+   width:  8.02vh;
+  
+  }
+  .nav-bar-ul{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    line-height: 130%;
+  }
+  ul, a, button{
+    cursor: pointer;
+    color: var(--NeutralMedium);
+  
+   }
+  .nav-bar a{
+    text-decoration: none;
+  }
+  
+  
+  .nav-bar li{
+    margin-right: -0.9375rem; 
+    list-style: none;
+    display: inline-block;
+  }
+  
+  button {
+    padding: .9375rem 2.0625rem .9375rem 2.0625rem;
+    font-size: 1.0625rem;
+    background-color: #072AC8;
+    color: white;
+    border: none;
+  }
