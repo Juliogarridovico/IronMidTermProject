@@ -1,3 +1,7 @@
+main {
+    display: flex;
+}
+
 /* 
 *******************
 Hero Section START
@@ -81,17 +85,27 @@ entiendo que será el área de actuación del ratón para el cambio
 de color y al click, el href www. a la web de la empresa del logo.
 
 */
+.group27-ClientSection,
+.group26-ClientSection,
+.group25-ClientSection,
+.group23-ClientSection,
+.group24-ClientSection {
+    display: flex;
+}
 
 #client-Section {
-    visibility: hidden;
     display: flex;
-    width: 1440px;
+    flex-direction:row;
+    flex-wrap: nowrap;
     height: 96px;
     left: calc(50% - 1440px/2);
     top: 1002px;
 }
 
 .clients-Grayscale {
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
     position: absolute;
     width: 1077px;
     height: 96px;
@@ -100,11 +114,14 @@ de color y al click, el href www. a la web de la empresa del logo.
 }
 
 .container-ClientSection {
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    width: 1100px;
-    height: 96px;
-    left: 170px;
+    width: 76.39%;
+    height: auto;
+    left: 193px;
     top: 0px;
+    justify-content: space-between;
 }
 
 /* 
