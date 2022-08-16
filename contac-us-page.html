@@ -7,7 +7,13 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../css/style.css"
+      href="/css/style.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/hamburguesa.css"
       media="screen"
     />
     <link
@@ -21,11 +27,30 @@
   </head>
 
   <body>
-    <header class="cabecera-movil">tests</header>
-    <header class="cabecera-pc">
+    <!-- desde aqui -->
+
+    <div class="hamburguesa-completa">
+      <div class="icono-menu">
+          <img src="project-assets/img-hamburguesa/open-menu.png" id="icono-menu">
+      </div>
+  
+      <div class="cont-menu active" id="menu">
+          <ul>
+              <li> Home </li>
+              <li> Projects </li>
+              <li> Services </li>
+              <li> Contact </li>
+              <li> Show me more </li>
+          </ul>
+      </div>
+  </div>
+
+    <!-- hasta aqui -->
+    <header class="hamburguesa-sincebolla">
       <a href="../index.html">
         <img class="nav-logo"  src="../project-assets/logos/circle.svg" alt="Circle Logo" />
       </a>
+     
       <nav class="nav-bar">
         <ul class="nav-bar-ul">
           <li><a href="#">Home</a></li>
@@ -35,7 +60,7 @@
       </nav>
       <button >Contact Us</button>
     </header>
-    <!-- <form class="" action="" method="get"> -->
+    <form class="" action="" method="get">
     <div class="espacio">
       <div class="row">
         <div class="col col-100"><h1>Contact Us</h1></div>
@@ -44,7 +69,7 @@
       <div class="row">
         <fieldset class="col col-100">
           <label id="Body-Regular">Full Name*</label><br>
-          <input id="Body-Regular" class="color-text-Field" type="text" placeholder="Enter you full name" required>
+          <input id="Body-Regular" class="color-text-Field" type="text" placeholder="Enter your full name" required>
         </fieldset>
       </div>
       <div class="row">
@@ -57,7 +82,7 @@
         </div>
         <fieldset class="col col-45">
           <label id="Body-Regular">Phone</label><br>
-          <input id="Body-Regular" class="color-text-Field" type="number" placeholder="Enter your phone number">
+          <input id="Body-Regular" class="color-text-Field" type="number" min="9" max="13" placeholder="Enter your phone number">
         </fieldset>
       </div>
       <div class="row">
@@ -73,7 +98,7 @@
         </div>
       </div>
     </div>
-    <!-- </form> -->
+    </form>
    
 
  <footer class="footer-distributed">
@@ -103,5 +128,6 @@
      
   </div>
   </footer>
+  <script src="js/hamburguesa.js"></script>
   </body>
 </html>

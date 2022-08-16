@@ -1,18 +1,21 @@
 @media (max-width:780px){
-  .cabecera-pc {
+  .hamburguesa-sincebolla {
     display: none;
   }
 
 }
 @media (min-width:780px){
-  .cabecera-movil {
+  .hamburguesa-completa {
     display: none;
   }
   
 
 }
 header{
-    margin: 5.3125rem 10.625rem 10.165rem 10.625rem;
+    max-width: 68.75rem;
+    margin: auto;
+    margin-top: 5.3125rem;
+    margin-bottom: 10.0625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +26,8 @@ header{
   }
   
   .nav-logo{
-   width:  8.02vh;
+    width: 60.53px;
+    height: 18.46px;
   
   }
   .nav-bar-ul{
@@ -33,7 +37,7 @@ header{
     font-size: 1.0625rem;
     line-height: 130%;
   }
-  ul, a, button{
+  nav ul, a, button{
     cursor: pointer;
     color: var(--NeutralMedium);
   
@@ -44,7 +48,7 @@ header{
   
   
   .nav-bar li{
-    margin-right: -0.9375rem; 
+    margin-right: 3.75rem;
     list-style: none;
     display: inline-block;
   }

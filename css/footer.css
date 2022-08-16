@@ -3,17 +3,26 @@
 footer{
     display: flex;
     justify-content: space-between;
-    margin: 11.5rem 5rem 6.25rem 10.625rem;
 }
 
 .footer-distributed{
     display: flex;
     justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 11.5rem;
+    margin-bottom: 6.25rem;
 
 }
 .footer-logo{
-    width: 13.0477vh;
+    /* width: 13.0477vw; */
 }
+
+
+.right-1{
+    display: flex;
+}
+
 .right-1 ul{
     display: flex;
     justify-content: space-between;
@@ -31,7 +40,7 @@ footer{
     
 }
 
-.footer-right li, a {
+.footer-right li a {
     padding-right: 3.75rem;
     text-decoration: none;
     list-style: none;
@@ -40,9 +49,11 @@ footer{
 
 
 .adress p{
-    /* line-height: 45%;
-    font-size: 1.3em; */
+    line-height: 45%;
+    font-size: 1.3em;
     width: 400px;
     line-height: 1.0987rem;
     font-size: .9375rem;
 }
+
+

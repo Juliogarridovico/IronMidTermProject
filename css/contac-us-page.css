@@ -34,8 +34,8 @@ fieldset {
 
 .espacio {
   position: relative;
-  max-width: 1440px;
-  margin: 0 10.625rem 0 10.625rem;
+  max-width: 68.75rem;
+  margin: auto;
 }
 
 .espaciado-ancho {
@@ -67,6 +67,20 @@ sistema grid para maquetar mas rapido o eso creia yo https://www.neoguias.com/cr
 .row h1{
   font-weight: 700;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
 /* GENERAL GRID STYLES */
 
 .col {
