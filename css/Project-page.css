@@ -29,7 +29,13 @@
   
   #date {
     color: #6B708D;
+    text-decoration: none;
   }
+
+  #date:hover {
+    text-decoration: underline;
+  }
+  
   
   #beginning {
     display: flex;
