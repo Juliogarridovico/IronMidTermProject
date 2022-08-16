@@ -1,41 +1,72 @@
+@import url(header.css);
+@import url(footer.css);
 ul {
   list-style: none;
+}
+.color-text-Field {
+  background: rgba(107, 112, 141, 0.1);
+}
+label{
+  display: inline-block;
+  margin-bottom: .625rem;
+}
+input {
+  border: 0px;
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 0 1.25rem 0 1.25rem;
+}
 
+textarea {
+  font-family: "Roboto";
+  border: 0px;
+  width: 100%;
+  height: 200px;
+  resize: none;
+  box-sizing: border-box;
+  padding: 1.375rem 1.25rem 0 1.25rem;
 
+}
+fieldset {
+  border: 0px;
 }
 
 .espacio {
   position: relative;
   max-width: 1440px;
-  /* height: 122px; */
-  
-  
-  margin: auto;
+  margin: 0 10.625rem 0 10.625rem;
+}
+
+.espaciado-ancho {
+  width: 1.875rem;
+}
+
+.ancho-boton {
+  width: 100%;
 }
 
 /* locura flex 
-sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-responsiva-flexbox/
+sistema grid para maquetar mas rapido o eso creia yo https://www.neoguias.com/crear-grid-responsiva-flexbox/
 */
-
 
 .col {
   padding: 0px;
   margin: 0px;
-
-  border: 1px solid #000;
-  background: #ecdb54;
+  padding-top: 40px;
 }
 
 .centrar {
   justify-content: center;
-
 }
 
 .wrap {
-
   flex-wrap: wrap;
 }
 
+.row h1{
+  font-weight: 700;
+}
 /* GENERAL GRID STYLES */
 
 .col {
@@ -46,14 +77,10 @@ sistema grid para maquetar mas rapido https://www.neoguias.com/crear-grid-respon
   .row {
     display: flex;
     flex-direction: row;
-   
+
     padding: 0px;
 
-
-
   }
-
-
 
   .col {
     flex: 1;
