@@ -3,7 +3,7 @@
 /* Estilos para el ícono del Menú */
 .icono-menu{
     margin: 40px 50px;
-    position: absolute;
+    position: fixed;
     z-index: 101;
     
 }
@@ -29,7 +29,7 @@
 
 /* Estilos por agregar en JavaScript */
 .active{
-    transform: translate(-600px);
+    transform: translate(-666px);
     z-index: 10;
 }
 

@@ -1,15 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/style.css" media="screen" />
-  <link rel="stylesheet" href="/css/Project-page.css" media="screen" />
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/Project-page.css" media="screen" />
   <link rel="stylesheet" href="/css/project-page-mobile.css" media="screen"/>
   <title>Projects</title>
-</head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/style.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/hamburguesa.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/contact-us-page.css"
+      media="screen"
+    />
+    <!-- <script src="../IronMidTermProject/js/menu.js"></script> -->
+    <title>Contact us page</title>
+  </head>
+
+  <body>
+    <!-- desde aqui -->
+
+    <div class="hamburguesa-completa">
+      <div class="icono-menu">
+          <img src="./project-assets/img-hamburguesa/open-menu.png" id="icono-menu">
+      </div>
+  
+      <div class="cont-menu active" id="menu">
+          <ul>
+              <li> Home </li>
+              <li> Projects </li>
+              <li> Services </li>
+          </ul>
+          <button class="boton-hamburguesa">Contact Us</button>
+      </div>
+  </div>
+
+    <!-- hasta aqui -->
+    <header class="hamburguesa-sincebolla">
+      <a href="./index.html">
+        <img class="nav-logo"  src="./project-assets/logos/circle.svg" alt="Circle Logo" />
+      </a>
+     
+      <nav class="nav-bar">
+        <ul class="nav-bar-ul">
+          <li><a href="#">Home</a></li>
+          <li> <a href="#">Projects</a> </li>
+          <li><a class="menu-selected" href="#">Services</a> </li>
+        </ul>
+      </nav>
+      <button >Contact Us</button>
+    </header>
+
+
+
+
 
 <body>
   <!--<header></header>-->
@@ -92,7 +148,33 @@
         
     </section>
   </main>
-  <!--<footer></footer>-->
-</body>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+        <img class="footer-logo" src="../project-assets/logos/circle.svg" alt="Circle Logo" />
+       <div class="adress"><p>2972 Westheimer Rd. Santa Ana,</p>
+                           <p>llinois 85486</p>
+       </div>
+    </div>
 
+<div class="footer-right">
+
+    <div class="right-1">
+        <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="right-2">
+        <ul>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+   
+</div>
+</footer>
+<script src="js/hamburguesa.js"></script>
+</body>
 </html>
