@@ -60,3 +60,7 @@ header{
     color: white;
     border: none;
   }
+button a {
+  text-decoration: none;
+  color: white;
+}
