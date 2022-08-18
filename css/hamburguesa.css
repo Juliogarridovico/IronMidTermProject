@@ -3,8 +3,9 @@
 /* Estilos para el ícono del Menú */
 .icono-menu{
     margin: 40px 50px;
-    position: fixed;
+    position: absolute;
     z-index: 101;
+    
 }
 
 .icono-menu img{
@@ -15,7 +16,7 @@
 
 /* Estilos para el contenedor del Menú */
 .cont-menu{
-    background-color: rgb(233, 12, 12);
+    background-color: #6B708D;
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
     width: 400px;
     height: 100vh;
@@ -41,15 +42,26 @@
 .cont-menu ul li{
     color: white;
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
 }
 
 .cont-menu ul li:hover{
-    background-color: rgb(228,228,228);
+    background-color: white;
     color: rgb(42,42,42);
 }
 
+.boton-hamburguesa{
+    
+    margin-left: 5%;
+    width: 90%;
+    background-color: white;
+    color: #6B708D;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 10px;
+}
 

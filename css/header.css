@@ -39,7 +39,7 @@ header{
   }
   nav ul, a, button{
     cursor: pointer;
-    color: var(--NeutralMedium);
+    color: #292E47;
   
    }
   .nav-bar a{
