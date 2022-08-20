@@ -112,7 +112,15 @@ h4 {
   margin-bottom: 8%;
 }
 
+.gris{
+  filter: grayscale(0);
+}
 
+.gris-animado {
+  filter: grayscale(100);
+  transition-property: filter;
+  transition-duration: 5s;        
+}
 
 /* pepo helena locuraaaa */
 

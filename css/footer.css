@@ -22,7 +22,9 @@ footer{
 .right-1{
     display: flex;
 }
-
+.right-2{
+    display: flex;
+}
 .right-1 ul{
     display: flex;
     justify-content: space-between;
