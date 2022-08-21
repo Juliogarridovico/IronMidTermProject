@@ -1,6 +1,6 @@
 
 /*
-ceci esto esta modificado
+ceci esto esta modificando
 Estilos generales
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -138,16 +138,16 @@ h4 {
   width: 100%;
 }
 
-/* locura flex 
+/* locura flex falso bootstrap 
 sistema grid para maquetar mas rapido o eso creia yo https://www.neoguias.com/crear-grid-responsiva-flexbox/
 */
 
 .col {
   padding: 0px;
   margin: 0px;
-  padding-top: 40px;
+  /* padding-top: 40px;
   border: 1px solid #000;
-  background: #ecdb54;
+  background: #ecdb54; */
 }
 
 .centrar {
