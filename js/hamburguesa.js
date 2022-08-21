@@ -16,3 +16,6 @@ iconoMenu.addEventListener('click', (e) => {
         e.target.setAttribute('src','/project-assets/img-hamburguesa/open-menu2.png');
     }
 });
+
+
+  
