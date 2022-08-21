@@ -2,7 +2,7 @@
 
 /* Estilos para el ícono del Menú */
 .icono-menu{
-    margin: 40px 50px;
+    margin: 20px 50px;
     position: fixed;
     z-index: 101;
     
@@ -12,11 +12,12 @@
     vertical-align: top;
     width: 40px;
     cursor: pointer;
+    
 }
 
 /* Estilos para el contenedor del Menú */
 .cont-menu{
-    background-color: #6B708D;
+    background-color: #eeeeee;
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
     width: 400px;
     height: 100vh;
@@ -40,7 +41,7 @@
 }
 
 .cont-menu ul li{
-    color: white;
+    color: #292E47;
     display: block;
     font-size: 20px;
     text-decoration: none;
@@ -57,11 +58,11 @@
     
     margin-left: 5%;
     width: 90%;
-    background-color: white;
-    color: #6B708D;
+    background-color: #072AC8;
+    color: white;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    box-shadow: 10px;
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66)
 }
 

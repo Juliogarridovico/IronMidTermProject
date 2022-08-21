@@ -18,34 +18,15 @@ footer{
     /* width: 13.0477vw; */
 }
 
-
-.right-1{
-    display: flex;
-}
-
-.right-1 ul{
+.footer-right div{
     display: flex;
     justify-content: space-between;
-
-}
-.right-2 ul{
-    display: flex;
-    justify-content: space-between;
-
-}
-.footer-right{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
 }
 
-.footer-right li a {
+/* .selection1 {
     padding-right: 3.75rem;
-    text-decoration: none;
-    list-style: none;
     font-size: 1.0625rem;
-}
+} */
 
 
 .adress p{
