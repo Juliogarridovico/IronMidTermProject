@@ -12,7 +12,7 @@
       margin-top: 15%;
   }
   
-  h1.simplify {
+   #project-section > h1 {
       width: 85%;
       margin-bottom: 0%;
   }
@@ -82,8 +82,6 @@
     background-color: #ffffff;
     box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
   }
-
- 
   
   .rectangle71 {
       width: 100%;
@@ -161,7 +159,7 @@
     flex-direction: row;
     align-items: center;
     height: 10%;
-    width: 50%;
+    width: 80%;
   }
   
   /* button {
@@ -194,7 +192,7 @@
     background-repeat: no-repeat;
     background-position: 3%;
     text-indent: 15%;
-    width: 80%;
+    width: 50%;
     border: none;
     margin-right: 3%;
     height: 100%;
@@ -225,12 +223,12 @@
     align-content: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     
 }
 
 #projects > div {
-  width: 50%;
+  width: 100%;
   margin-bottom: 10%;
 }
 
@@ -238,4 +236,77 @@
   text-align: center;
 }
 
+.image-start {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+ 
+  box-shadow: 22px 21px 81px -3px rgba(196,145,227,1);  
+}
+
+#text-description {
+  text-align: justify;
+  width: 100%;
+  
+}
+
+#text-description2 {
+  text-align: justify;
+}
+
+#text-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
+  width: 80%;
+  text-align: center;
+
+}
+
+input {
+  background-color: #F4F6FC;
+  background-image: url("/project-assets/newsletter/icon/mail.svg");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: 3%;
+  text-indent: 25%;
+  width: 60%;
+  border: none;
+  margin-right: 3%;
+  height: 100%;
+
+
+}
+
+#submit-things {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10%;
+  width: 80%;
+}
+
+.boton {
+    
+  background-color: #072AC8;
+  color: #ffffff;
+  width: 30%;
+  text-decoration: none;
+  font-size: 70%;
+  margin: 0;
+  padding: 0;
+
+}
+
+::placeholder {
+  font-size: 60%;
+}
+
+#project-section > h1 {
+  font-size: 250%;
 }
