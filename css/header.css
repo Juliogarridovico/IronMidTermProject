@@ -19,11 +19,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F2F4FC;
+    background: var(--light-color);
   
   }
   .menu-selected {
-    color: #072AC8;
+    color: var(--default-color);
   }
   
   .nav-logo{
@@ -40,7 +40,7 @@ header{
   }
   nav ul, a, button{
     cursor: pointer;
-    color: #292E47;
+    color: var(--dark-color);
   
    }
   .nav-bar a{
@@ -57,11 +57,11 @@ header{
   button {
     padding: .9375rem 2.0625rem .9375rem 2.0625rem;
     font-size: 1.0625rem;
-    background-color: #072AC8;
-    color: white;
+    background-color: var(--default-color);
+    color: var(--white-color);
     border: none;
   }
 button a {
   text-decoration: none;
-  color: white;
+  color: var(--white-color);
 }

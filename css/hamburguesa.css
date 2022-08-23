@@ -50,7 +50,7 @@
 }
 
 .cont-menu ul li:hover{
-    background-color: white;
+    background-color: var(--white-color);
     color: rgb(42,42,42);
 }
 
@@ -58,8 +58,8 @@
     
     margin-left: 5%;
     width: 90%;
-    background-color: #072AC8;
-    color: white;
+    background-color: var(--default-color);
+    color: var(--white-color);
     border: none;
     font-size: 20px;
     font-weight: 600;
