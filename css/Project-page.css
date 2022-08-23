@@ -53,10 +53,8 @@
     width: 100%;
     height: 30em;
     margin-bottom: 5%;
-    border-style: solid;
-    border-width: 10px;
-    border-image: linear-gradient(45deg, rgb(156,84,238, .2), rgb(250,155,97, .2), rgb(177, 236, 250, .2), rgb(235, 94, 155, .2)) 1;
-    border-radius: ;  
+   
+    box-shadow: 22px 21px 81px -3px rgba(196,145,227,1);  
   }
   
   #text-description {
@@ -227,12 +225,12 @@
     align-content: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 85%;
+    width: 70%;
     
 }
 
 #projects > div {
-  width: 60%;
+  width: 50%;
   margin-bottom: 10%;
 }
 
