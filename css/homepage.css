@@ -258,7 +258,7 @@ Services Section START
     margin-right: 10%;
     flex-direction: row;
     width: 100%;
-    height: 20em;
+    height: 30%;
 }
 .service1 {
     display: flex;
@@ -310,6 +310,8 @@ line-height: 28px;
 
 .learn-more {
     color: var(--default-color);
+    background: none;
+    border: 0;
 }
 /* 
 ****************************

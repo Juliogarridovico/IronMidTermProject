@@ -53,30 +53,6 @@ body {
     width: 50%;
   }
   
-  /* button {
-    background-color: #072AC8;
-    color: #ffffff;
-    width: 35%;
-    text-decoration: none;
-    font-size: 17px;
-    border: none;
-    height: 100%;
-  
-  } */
-
-  .boton {
-    
-    background-color: #072AC8;
-    color: #ffffff;
-    width: 35%;
-    text-decoration: none;
-    font-size: 17px;
-    border: none;
-    height: 100%;
-  
-  
-  }
-
   input {
     background-color: #F4F6FC;
     background-image: url("/project-assets/newsletter/icon/mail.svg");
