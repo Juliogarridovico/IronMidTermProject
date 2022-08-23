@@ -1,10 +1,10 @@
-@media (max-width:780px){
+@media (max-width:666px){
   .hamburguesa-sincebolla {
     display: none;
   }
 
 }
-@media (min-width:780px){
+@media (min-width:666px){
   .hamburguesa-completa {
     display: none;
   }
@@ -12,13 +12,14 @@
 
 }
 header{
-    max-width: 68.75rem;
+    max-width: 68.75rem ;
     margin: auto;
     margin-top: 5.3125rem;
     margin-bottom: 10.0625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: var(--light-color);
   
   }
   .menu-selected {
@@ -39,7 +40,7 @@ header{
   }
   nav ul, a, button{
     cursor: pointer;
-    color: var(--NeutralMedium);
+    color: var(--dark-color);
   
    }
   .nav-bar a{
@@ -60,3 +61,7 @@ header{
     color: white;
     border: none;
   }
+button a {
+  text-decoration: none;
+  color: var(--white-color);
+}

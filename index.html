@@ -1,95 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> -->
-<link rel="stylesheet" href="./css/main.css">
-<link rel="stylesheet" type="text/css" href="./css/style.css" />
-<link rel="stylesheet" type="text/css" href="./css/homepage.css" />
-
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/hamburguesa.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
 </head>
-<body>
-    <main>
-        <section id="hero-Section">
-            <div class="container-HeroSection">
-                <div class="content-HeroSection">
-                    <h1>Empower Your Business With Stunning Design!</h1>
-                    <p>Circle is a digital design and development studio.
-                    We design and develop astonishing websites and mobile apps.</p>
-                    <div>
-                        <button>Get in touch</button>
-                        <button>See our work</button>
-                    </div>
-                </div>
-                <div class="image">
-                    <div>
-                        <img class="card-1" src="./project-assets/hero-section/card-1.png" alt="" />
-                        <img class="card-2" src="./project-assets/hero-section/card-2.png" alt="" />
-                    </div>
-                    <img id="hero-Image" src="./project-assets/hero-section/hero-image.png" alt="Foto chico Hero Section" />
-                </div>
-            </div>
-        </section>
-        
-        <!-- [1] Esta sección [#client-Section] tiene los logos en gris para que cuando
-        pasamos el ratón por encima, se pongan en color, y al click, envíen a la
-        la pagina de la respectiva empresa.
-        Pd: JULIO, lo vas a disfrutar con el JavaScript aquí, el marrón Pa'ti. -->
-        <section id="client-Section">
-            <div class="clients-Grayscale">
-                <div class="group27-Greyscale">
-                    <img src="./project-assets/logos/amazon-logo.svg" alt="Logo de Amazon">
-                </div>
-                <div class="group26-Greyscale">
-                    <img src="./project-assets/logos/fedex-logo.svg" alt="Logo de FedEx">
-                </div>
-                <div class="group25-Greyscale">
-                    <img src="./project-assets/logos/microsoft-logo.svg" alt="Logo de Microsoft">
-                </div>
-                <div class="group23-Greyscale">
-                    <img src="./project-assets/logos/airbnb-logo.svg" alt="Logo de Airbnb">
-                </div>
-                <div class="group24-Greyscale">
-                    <img src="./project-assets/logos/google-logo.svg" alt="Logo de Google">
-                </div>
-            </div>
-            <div class="container-ClientSection">
-                <div class="group27-ClientSection">
-                    <img src="./project-assets/logos/amazon-logo.svg" alt="Logo de Amazon">
-                </div>
-                <div class="group26-ClientSection">
-                    <img src="./project-assets/logos/fedex-logo.svg" alt="Logo de FedEx">
-                </div>
-                <div class="group25-ClientSection">
-                    <img src="./project-assets/logos/microsoft-logo.svg" alt="Logo de Microsoft">
-                </div>
-                <div class="group23-ClientSection">
-                    <img src="./project-assets/logos/airbnb-logo.svg" alt="Logo de Airbnb">
-                </div>
-                <div class="group24-ClientSection">
-                    <img src="./project-assets/logos/google-logo.svg" alt="Logo de Google">
-                </div>
-            </div>
-        </section>
 
-        <section id="project-Section">
-            <div class="container-ProjectSection">
-                <div class="projects-ProjectSection">
-                    <div id="project-1-ProjectSection">
-                        <img
-                          class="rectangle71"
-                          src="project-assets/projects-section/1.jpg"
-                          alt="Simplify section image"
-                        />
-                        <div class="text-rectangle">
-                          <h5 id="Body-Medium">Simplify</h5>
-                          <p id="Headline-Regular">UI Design & App Development</p>
-                          <a id="Headline-Regular" href="#">Learn More</a>
-                        </div>
-                      </div>
+<body>
+    <div class="hamburguesa-completa">
+        <div class="icono-menu">
+            <img src="./project-assets/img-hamburguesa/open-menu.png" id="icono-menu" />
+        </div>
+
+        <div class="cont-menu active" id="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./project-page.html">Projects</a></li>
+                <li><a href="./contact-us-page.html">Services</a></li>
+            </ul>
+            <button class="boton-hamburguesa">Contact Us</button>
+        </div>
+    </div>
+
+    <header class="hamburguesa-sincebolla">
+        <a href="./index.html">
+            <img class="nav-logo" src="./project-assets/logos/circle.svg" alt="Circle Logo" />
+        </a>
+
+        <nav class="nav-bar">
+            <ul class="nav-bar-ul">
+                <li><a class="menu-selected" href="./index.html">Home</a></li>
+                <li><a href="./project-page.html">Projects</a></li>
+                <li><a href="./contact-us-page.html">Services</a></li>
+            </ul>
+        </nav>
+        <button><a href="./contact-us-page.html">Contact Us</a></button>
+    </header>
+
+    <!--Pepo helena work-->
+
+<!-- Hero-Section Start-->
+    <section id="hero-Section">
+        <div class="container-HeroSection">
+            <div class="content-HeroSection">
+                <h1>Empower Your Business With Stunning Design!</h1>
+                <p class="circle">Circle is a digital design and development studio.
+                We design and develop astonishing websites and mobile apps.</p>
+                <div>
+                    <button>Get in touch</button>
+                    <button class="btn-sow">See our work</button>
                 </div>
-                <h3>Recent Projects</h3>
             </div>
-        </section>
-    </main>
+            <div class="image">
+                <div class="imagen-derecha">
+                    <div class="div-hero-image"><img id="hero-Image" src="./project-assets/hero-section/hero-image.png" alt="Foto chico Hero Section" /></div>
+                    <!-- <img class="card-1" src="./project-assets/hero-section/card-1.png" alt="" />
+                    <img class="card-2" src="./project-assets/hero-section/card-2.png" alt="" /> -->
+                    
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Hero-Section End -->
+
+    <div class="espacio">
+        <div class="row">
+            <div class="col col-50"></div>
+            <div class="col col-50"></div>
+        </div>
+        <div class="row client-logos">
+            <div class="col col-20">
+                <img class="gris-animado" class="gris" src="./project-assets/logos/amazon-logo.svg"
+                    alt="Logo de Amazon" />
+            </div>
+            <div class="col col-20">
+                <img class="gris-animado" src="./project-assets/logos/fedex-logo.svg" alt="Logo de FedEx" />
+            </div>
+            <div class="col col-20">
+                <img class="gris-animado" src="./project-assets/logos/microsoft-logo.svg" alt="Logo de Microsoft" />
+            </div>
+            <div class="col col-20">
+                <img class="gris-animado" src="./project-assets/logos/airbnb-logo.svg" alt="Logo de Airbnb" />
+            </div>
+            <div class="col col-20">
+                <img class="gris-animado" src="./project-assets/logos/google-logo.svg" alt="Logo de Google" />
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="col col-50">
+            <h3 class="title-Recent-Projects">Recent Projects</h3>
+        </div>
+        <!-- se inserta el contenido de manera dinamica -->
+        <div id="Recent-Projects" class="row"></div>
+
+        <div id="Testimonial-Section">
+            <div class="row">
+                <div class="col col-20">
+                    <img class="memoji" src="./project-assets/testimonial-section/memoji-1.png" />
+                </div>
+                <div class="col col-80">
+                    <h3 class="h3-testimonial">Hear What Our Clients Have to Say</h3>
+                </div>
+                <div class="col col-20">
+                    <img class="memoji" src="./project-assets/testimonial-section/memoji-2.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-100 color-text-circle">
+                    <p class="text-centro-circle">
+                        “Circle helped us through every stage of our startup. <br />We
+                        really enjoyed working with you.”
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-20">
+                    <img class="memoji" src="./project-assets/testimonial-section/memoji-3.png" />
+                </div>
+                <div class="col col-80 client-information">
+                    <img class="Kristin-photo" src="project-assets/testimonial-section/profile.png" alt="Profile Photo Kristin Watson">
+                    <div class="kristin-information">
+                        <p class="fullNameKristin">Kristin Watson</p>
+                        <p class="booking-web">Booking.com</p>
+                    </div>
+                </div>
+                <div class="col col-20">
+                    <img class="memoji" src="./project-assets/testimonial-section/memoji-4.png" />
+                </div>
+            </div>
+        </div>    
+        <div class="row">
+                <div class="col col-100">
+                    <h3>Our Services</h3>
+                </div>
+            </div>
+            <div class="row services">
+                <div class="col col-30 service1">
+                    <div>
+                        <div class="div-icon-services"><img class="icon-services" src="./project-assets/services-section/icons/1.svg" /></div>
+                        <div class="title-service">User Interface Design</div>
+                        <div class="text-service">Circle provides you with a stunning user interface design that is accessible to everyone.</div>
+                        <a class="Headline-Regular" href="./project-single-page.html?uuid=3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col col-30 service1">
+                    <div>
+                        <div class="div-icon-services"><img class="icon-services" src="./project-assets/services-section/icons/2.svg" /></div>
+                        <div class="title-service">User Experience Design</div>
+                        <div class="text-service">Circle always focuses on delivering the best user experience to your customers.</div>
+                        <a class="Headline-Regular" href="./project-single-page.html?uuid=3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col col-30 service1">
+                    <div>
+                        <div class="div-icon-services"><img class="icon-services" src="./project-assets/services-section/icons/3.svg" /></div>
+                        <div class="title-service">Application Development</div>
+                        <div class="text-service">We develop high-quality mobile and web applications using the latest technology stack.</div>
+                        <a class="Headline-Regular" href="./project-single-page.html?uuid=3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        
+
+    </div>
+    <section id="cta-section">
+        <div id="text-cta">
+          <h3>Do you have any questions?</h3>
+          <h5 class="Body-Regular">Let us help you!</h5>
+        </div>
+        <div id="submit-things">
+          <input type="email" class="Headline-Regular" name="email" placeholder="Enter your email" />
+          <button class = "boton" type="button">Subscribe</button>
+        </div> 
+          
+      </section>
+
+      <footer class="footer-distributed">
+        <div class="footer-left">
+            <img class="footer-logo" src="../project-assets/logos/circle.svg" alt="Circle Logo" />
+           <div class="adress"><p>2972 Westheimer Rd. Santa Ana,</p>
+                               <p>llinois 85486</p>
+           </div>
+        </div>
+    
+    <div class="footer-right">
+    
+     <div class="right1">
+      <div><a href="./index.html">Team</a></div>
+      <div><a href="#">Services</a></div>
+      <div><a href="#">About Us</a></div>
+    </div>
+    <div class="right2">
+      <div><a href="#">Press</a></div>
+      <div><a href="./project-page.html">Projects</a></div>
+      <div><a href="#">Privacy Policy</a></div>
+    </div>
+    
+    </footer>
+    <script src="./js/hamburguesa.js"></script>
+    <script src="./js/apiConetion.js"></script>
 </body>
+
 </html>

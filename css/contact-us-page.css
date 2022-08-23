@@ -1,0 +1,61 @@
+
+@import url(header.css);
+@import url(footer.css);
+
+
+body{
+  background-color: #F2F4FC;
+}
+ul {
+  list-style: none;
+}
+.color-text-Field {
+  background: rgba(107, 112, 141, 0.1);
+}
+label{
+  display: inline-block;
+  margin-bottom: .625rem;
+}
+input {
+  border: 0px;
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+textarea {
+  font-family: "Roboto";
+  border: 0px;
+  width: 100%;
+  height: 200px;
+  resize: none;
+  box-sizing: border-box;
+  padding: 1.375rem 1.25rem 0 1.25rem;
+
+}
+fieldset {
+  border: 0px;
+}
+
+.espacio {
+  position: relative;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.espaciado-ancho {
+  width: 1.875rem;
+}
+
+.ancho-boton {
+  width: 100%;
+}
+
+.col {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 40px;
+  /* border: 1px solid #000;
+  background: #ecdb54;*/
+} 

@@ -8,6 +8,7 @@
     --light-color: #F4F6FC;
     --light-blue: #ECF7FF;
     --secondary-color: #FFC600;
+    --white-color: #FFFFFF;
 }
 
 /* 
@@ -17,3 +18,100 @@ body {
     background-color: var(--light-color);
 
 } */
+
+#cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: #FFC600;
+    margin-top: 10%;
+    height: 30em;
+    width: 100%;
+  }
+  
+  #text-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+  
+  }
+  #cta-section h5{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  
+  #cta-section h3 {
+    margin-bottom: 0%;
+  }
+  
+  #submit-things {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    width: 50%;
+  }
+  
+  input {
+    background-color: #F4F6FC;
+    background-image: url("/project-assets/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 3%;
+    text-indent: 15%;
+    width: 80%;
+    border: none;
+    margin-right: 3%;
+    height: 100%;
+  
+  }
+  
+  a.Headline-Regular {
+    color: #072AC8;
+    display: inline-block;
+    margin-top: 3em;
+    text-decoration: none;
+  }
+  
+  a.Headline-Regular:hover {
+    color: #6B708D;
+  }
+  
+  button:active {
+    background-color: #6B708D;
+  }
+  
+
+  .Caption-1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+  
+    color: #514d67;
+  }
+  .Caption-2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  
+    color: #514d67;
+  }
+  #project-1 {
+    background-color: #ffffff;
+    box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
+    margin-right: 2%;
+  }
+  .rectangle71 {
+    width: 100%;
+    
+  }
+  .text-rectangle {
+    margin-left: 8%;
+    margin-bottom: 8%;
+  }
