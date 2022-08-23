@@ -1,10 +1,5 @@
 
 
-footer{
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer-distributed{
     display: flex;
     justify-content: space-between;
@@ -12,37 +7,43 @@ footer{
     margin: auto;
     margin-top: 11.5rem;
     margin-bottom: 6.25rem;
-
+    background-color: #ECF7FF;
 }
 .footer-logo{
-    /* width: 13.0477vw; */
+    width: 20%;
 }
 
 
-.right-1{
-    display: flex;
-}
 
-.right-1 ul{
-    display: flex;
-}
-.right-2 ul{
-    display: flex;
-    justify-content: space-between;
-
-}
 .footer-right{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
+    padding-left: 10px;
     
+
+
 }
+.right1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.right2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-.footer-right li a {
-    padding-right: 3.75rem;
-    font-size: 1.0625rem;
-} */
-
+}
+.right1 a{
+    margin-right: 3.75rem;
+    text-decoration: none;
+}
+.right2 a{
+    margin-right: 3.75rem;
+    text-decoration: none;
+}
 
 .adress p{
     line-height: 45%;
