@@ -12,8 +12,12 @@ iconoMenu.addEventListener('click', (e) => {
 
     if(rutaActual == '/project-assets/img-hamburguesa/open-menu2.png'){
         e.target.setAttribute('src','/project-assets/img-hamburguesa/open-menu.png');
+        var intro = document.getElementById('burguer');
+intro.style.backgroundColor = '#ffffff';
     }else{
         e.target.setAttribute('src','/project-assets/img-hamburguesa/open-menu2.png');
+        var intro = document.getElementById('burguer');
+intro.style.backgroundColor = '#ECF7FF';
     }
 });
 
