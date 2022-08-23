@@ -23,7 +23,7 @@ header{
   
   }
   .menu-selected {
-    color: var(--default-color);
+    color: #072AC8;
   }
   
   .nav-logo{
@@ -57,8 +57,8 @@ header{
   button {
     padding: .9375rem 2.0625rem .9375rem 2.0625rem;
     font-size: 1.0625rem;
-    background-color: var(--default-color);
-    color: var(--white-color);
+    background-color: #072AC8;
+    color: white;
     border: none;
   }
 button a {
