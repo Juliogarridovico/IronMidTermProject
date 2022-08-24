@@ -191,7 +191,7 @@ Recent Projects Section START
     background-color: var(--white-color);
     box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
     margin-right: 2%;
-/*     width: 30.91%; */
+    width: 30.91%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -289,17 +289,20 @@ Services Section START
     height: 30%;
 }
 .service1 {
-    display: flex;
+/*     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row; */
     background-color: var(--white-color);
     box-shadow: 0em 2em 3em rgba(0, 0, 0, 10%);
-    width: 30%;
-    height: 380px;
     margin: 2%;
     padding: 15px;
+    width: 30%;
+/*     ;
+    height: 380px;
+    margin: 2%;
+     */
 }
 
 .div-icon-services {
