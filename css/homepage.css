@@ -10,8 +10,8 @@ Hero Section START
 
 #hero-Section {
     display: flex;
-    width: 100%;
-    height: 40.625em;
+
+
     justify-content: center;
     align-items: center;
     max-width: 68.75rem;
@@ -30,7 +30,7 @@ Hero Section START
 
     align-items: center;
     width: 48.18%;
-    height: 26.375em;
+
     left: 10.625em;
     top: 6.813em;
 }
@@ -214,6 +214,12 @@ Testimonial Section START
     color: var(--light-color);
     flex-wrap: nowrap;
     text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    .mobile-first {
+        display: none;
+    }
 }
 
 .memoji {
