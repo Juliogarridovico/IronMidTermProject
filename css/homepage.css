@@ -150,8 +150,18 @@ de color y al click, el href www. a la web de la empresa del logo.
 }
 
 .client-logos {
-    padding-top: 5%;
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
 }
+
+.client-logo {
+    margin: 10px 10px 0 10px;
+    padding-top: 10px;
+}
+
 /* 
 *******************
 Client Section END
@@ -181,17 +191,15 @@ Recent Projects Section START
     background-color: var(--white-color);
     box-shadow: 0em 2em 3em rgb(0 0 0 / 10%);
     margin-right: 2%;
-    width: 30.91%;
+/*     width: 30.91%; */
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .rectangle71 {
-    width: 100%;
     height: 15em;
 }
 
-#Recent-Projects > div {
-    width: 60%;
-}
 
 /* 
 ****************************

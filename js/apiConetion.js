@@ -5,7 +5,7 @@
 function pintaapi(data){
   data.forEach((project) => {
     document.getElementById("Recent-Projects").innerHTML += `
-        <div class="col col-20 project-1">
+        <div class="project-1">
         <img class="rectangle71 " src="${project.image}" alt="Orbit section image" />
         <div class="text-rectangle">
           <h5 class="Body-Medium">${project.name}</h5>
