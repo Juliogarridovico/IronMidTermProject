@@ -17,7 +17,7 @@ intro.style.backgroundColor = '#ffffff';
     }else{
         e.target.setAttribute('src','/project-assets/img-hamburguesa/open-menu2.png');
         var intro = document.getElementById('burguer');
-intro.style.backgroundColor = '#ECF7FF';
+intro.style.backgroundColor = '#F2F4FC';
     }
 });
 
